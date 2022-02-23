@@ -44,7 +44,7 @@ On a general note you should follow the instructions given on the ironSource And
   IronSource.initWithAppKey(kAPPKEY) 
   
 ```
-See the sample code for example as how to load and show Interstitial and Rewarded videos and receive Ad units lifecycle callbacks.
+See the [sample code](https://github.com/Kidoz-SDK/ios-ironsource-adapter/blob/main/KidozIronSourceSample/ViewController.swift) for example as how to load and show Interstitial and Rewarded videos and receive Ad units lifecycle callbacks.
 Be aware that you need to call the `IronSource.setRewardedVideoManualDelegate(...)` method in order to be able to load and show Rewarded Videos programmatically from your code.
   
 Kidoz Direct Banners
@@ -64,4 +64,4 @@ Until ironSource mediation SDK supports banners custom adapters publishers can l
 ```
 Make sure the `Publisher ID` and `Token` you send on the `KidozSDK.instance()initialize(...)` method are your own unique parameters and not the Kidoz Test parameters used in this sample. This parameters need to be the same ones you used as network level parameters when adding the Kidoz network on the ironSource dashboard.<BR>
   
-See the sample code for example as how to init, load and show Kidoz Banners and receive lifecycle callbacks.
+See the [sample code](https://github.com/Kidoz-SDK/ios-ironsource-adapter/blob/main/KidozIronSourceSample/ViewController.swift) for example as how to init, load and show Kidoz Banners and receive lifecycle callbacks.
