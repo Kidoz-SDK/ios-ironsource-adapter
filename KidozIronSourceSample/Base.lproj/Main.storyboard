@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="main" id="BYZ-38-t0r" customClass="ViewController" customModule="KidozIronSourceTestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gvT-hX-KB7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-8A-r41">
+                                <rect key="frame" x="20" y="447" width="335" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="nWn-Aa-NbN"/>
+                                </constraints>
+                                <color key="textColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kidoz_left_side_logo_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="mZT-G6-Aoc">
+                                <rect key="frame" x="154" y="44" width="106" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="6Nz-5B-TLM"/>
+                                    <constraint firstAttribute="width" constant="106" id="mIB-hr-x5p"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kidoz ironSource Test App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PV4-e5-WVf">
+                                <rect key="frame" x="0.0" y="52" width="414" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="dEt-3o-VNj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="805-ZT-KNh">
+                                <rect key="frame" x="128" y="108" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0Wu-S3-h0I"/>
+                                    <constraint firstAttribute="width" constant="158" id="jgs-Mz-jew"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Load IS Interstitial"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadInterstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFr-U1-DYs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxe-Tw-I1S">
+                                <rect key="frame" x="128" y="146" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="M7o-MH-fiV"/>
+                                    <constraint firstAttribute="height" constant="30" id="vkz-wO-gD9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Show IS Interstitial"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showInterstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lzi-sy-4tr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWo-To-DHq" userLabel="Init Kidoz SDK">
+                                <rect key="frame" x="128" y="276" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="FuJ-lm-6sK"/>
+                                    <constraint firstAttribute="height" constant="30" id="RAw-mX-b1c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Init Kidoz SDK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onInitKidozSDKAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DCL-Vg-b0P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZH-bG-wmR" userLabel="Load IS Rewarded">
+                                <rect key="frame" x="128" y="184" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="14I-EF-g3u"/>
+                                    <constraint firstAttribute="height" constant="30" id="zQc-Q3-sPH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Load IS Rewarded"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadRewarded:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvd-8R-WLe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRp-OS-zsL">
+                                <rect key="frame" x="128" y="222" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="mu1-Wj-fHN"/>
+                                    <constraint firstAttribute="height" constant="30" id="wzn-kG-2JC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Show IS Rewarded"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showRewarded:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zli-m9-nnq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IwK-Cq-BKw">
+                                <rect key="frame" x="128" y="314" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="228-2n-ksQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="6pZ-3X-zd0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Load Banner"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loadBanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hD-oP-ICx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xl5-kG-Xzw">
+                                <rect key="frame" x="128" y="351" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NhX-7B-d1c"/>
+                                    <constraint firstAttribute="width" constant="158" id="OsJ-oV-Msk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Show Banner"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showBanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SWq-Nr-Zwc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oa-no-h8e">
+                                <rect key="frame" x="128" y="388" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.99775952830000003" green="1" blue="0.99592033010000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Eub-ar-fep"/>
+                                    <constraint firstAttribute="width" constant="158" id="MLu-bq-4hV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <state key="normal" title="Hide Banner"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="hideBanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zaH-3y-XU2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wi4-bT-7Iw"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X8K-8A-r41" firstAttribute="leading" secondItem="wi4-bT-7Iw" secondAttribute="leading" constant="20" id="0Ry-qG-AxV"/>
+                            <constraint firstItem="mZT-G6-Aoc" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="2LC-8i-9RB"/>
+                            <constraint firstItem="kWo-To-DHq" firstAttribute="top" secondItem="JRp-OS-zsL" secondAttribute="bottom" constant="24" id="3g0-re-Ytv"/>
+                            <constraint firstItem="X8K-8A-r41" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="3pY-Iy-1Uv"/>
+                            <constraint firstItem="Mxe-Tw-I1S" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="9ZQ-Oi-iUT"/>
+                            <constraint firstItem="mZT-G6-Aoc" firstAttribute="top" secondItem="wi4-bT-7Iw" secondAttribute="top" id="Bi2-tk-G35"/>
+                            <constraint firstItem="805-ZT-KNh" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="EIZ-Ef-mJl"/>
+                            <constraint firstItem="2oa-no-h8e" firstAttribute="trailing" secondItem="Xl5-kG-Xzw" secondAttribute="trailing" id="Ffb-fH-Yyw"/>
+                            <constraint firstItem="IwK-Cq-BKw" firstAttribute="centerX" secondItem="JRp-OS-zsL" secondAttribute="centerX" id="HhF-TL-vVc"/>
+                            <constraint firstItem="2oa-no-h8e" firstAttribute="leading" secondItem="Xl5-kG-Xzw" secondAttribute="leading" id="IRi-cO-OEL"/>
+                            <constraint firstItem="JRp-OS-zsL" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="KBe-kN-McJ"/>
+                            <constraint firstItem="PV4-e5-WVf" firstAttribute="leading" secondItem="wi4-bT-7Iw" secondAttribute="leading" id="QCY-sz-4o9"/>
+                            <constraint firstItem="Xl5-kG-Xzw" firstAttribute="top" secondItem="IwK-Cq-BKw" secondAttribute="bottom" constant="7" id="REw-aS-OnZ"/>
+                            <constraint firstItem="805-ZT-KNh" firstAttribute="top" secondItem="PV4-e5-WVf" secondAttribute="bottom" constant="8" id="Si1-hy-NUk"/>
+                            <constraint firstItem="Xl5-kG-Xzw" firstAttribute="centerX" secondItem="IwK-Cq-BKw" secondAttribute="centerX" id="SsZ-Wa-HnN"/>
+                            <constraint firstItem="wi4-bT-7Iw" firstAttribute="trailing" secondItem="PV4-e5-WVf" secondAttribute="trailing" id="Y0w-gH-frA"/>
+                            <constraint firstItem="X8K-8A-r41" firstAttribute="top" secondItem="2oa-no-h8e" secondAttribute="bottom" constant="15" id="dWK-rw-bRS"/>
+                            <constraint firstItem="wi4-bT-7Iw" firstAttribute="bottom" secondItem="X8K-8A-r41" secondAttribute="bottom" constant="30" id="mYT-Oe-3LB"/>
+                            <constraint firstItem="kWo-To-DHq" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="n5A-ik-u3D"/>
+                            <constraint firstItem="6ZH-bG-wmR" firstAttribute="top" secondItem="Mxe-Tw-I1S" secondAttribute="bottom" constant="8" id="q5I-BT-vEp"/>
+                            <constraint firstItem="2oa-no-h8e" firstAttribute="top" secondItem="Xl5-kG-Xzw" secondAttribute="bottom" constant="7" id="qWC-WZ-P0W"/>
+                            <constraint firstItem="2oa-no-h8e" firstAttribute="centerX" secondItem="Xl5-kG-Xzw" secondAttribute="centerX" id="rmh-dC-EpJ"/>
+                            <constraint firstItem="6ZH-bG-wmR" firstAttribute="centerX" secondItem="wi4-bT-7Iw" secondAttribute="centerX" id="sBh-cG-LRR"/>
+                            <constraint firstItem="IwK-Cq-BKw" firstAttribute="top" secondItem="kWo-To-DHq" secondAttribute="bottom" constant="8" id="sN6-gA-66R"/>
+                            <constraint firstItem="PV4-e5-WVf" firstAttribute="top" secondItem="mZT-G6-Aoc" secondAttribute="bottom" constant="8" id="wXb-DN-dWY"/>
+                            <constraint firstItem="Mxe-Tw-I1S" firstAttribute="top" secondItem="805-ZT-KNh" secondAttribute="bottom" constant="8" id="z84-sd-GMO"/>
+                            <constraint firstItem="JRp-OS-zsL" firstAttribute="top" secondItem="6ZH-bG-wmR" secondAttribute="bottom" constant="8" id="ztg-sA-75R"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logText" destination="X8K-8A-r41" id="vIS-gH-nBL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kidoz_left_side_logo_small.png" width="128" height="128"/>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
