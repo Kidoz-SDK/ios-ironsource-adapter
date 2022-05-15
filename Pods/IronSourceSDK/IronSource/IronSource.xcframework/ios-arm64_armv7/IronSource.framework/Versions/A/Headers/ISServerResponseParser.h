@@ -18,6 +18,13 @@
 #import "ISExternalSettings.h"
 #import "ISSKAdNetworkSettings.h"
 #import "ISPixelSettings.h"
+
+typedef NS_ENUM(NSInteger, ISResponseOrigin) {
+    RESPONSE_ORIGIN_NOT_SET,
+    RESPONSE_ORIGIN_CACHE,
+    RESPONSE_ORIGIN_SERVER
+};
+
 @interface ISServerResponseParser : NSObject
 
 /* ProvidersConfig Array's Hold 'ISAdapterConfig' obj */
@@ -50,11 +57,11 @@
 @property (nonatomic, strong) NSString                            *segmentName;
 @property (nonatomic, strong) NSString                            *segmentId;
 @property (nonatomic, strong) NSDictionary                        *customSegmentParams;
-
 @property (nonatomic,assign) BOOL                                 showIntegrationHelper;
 
-+ (ISServerResponseParser *)sharedInstance;
--  (void)parseObject:(id)object;
+@property (nonatomic, assign) ISResponseOrigin                    responseOrigin;
 
++ (ISServerResponseParser *)sharedInstance;
+- (void)parseObject:(id)object;
 - (NSArray *)getConfigForProvider:(NSString *)provider;
 @end

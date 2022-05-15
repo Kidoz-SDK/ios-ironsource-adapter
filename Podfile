@@ -4,7 +4,7 @@
 target 'KidozIronSourceSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'IronSourceSDK','7.2.0.0'
+  pod 'IronSourceSDK','7.2.1.2'
 
 end
 

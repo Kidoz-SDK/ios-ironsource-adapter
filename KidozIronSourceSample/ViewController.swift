@@ -13,7 +13,7 @@ import ObjectiveC.runtime
 let kAPPKEY = "11ec9bd9d"
 
 
-class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoManualDelegate,ISImpressionDataDelegate,KDZInitDelegate,KDZBannerDelegate{
+class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoManualDelegate,KDZInitDelegate,KDZBannerDelegate{
     
     var mBanner: UIView!
     @IBOutlet weak var logText: UITextView!
@@ -43,7 +43,6 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
         // to be able to enable/disable buttons to match ad availability.
         IronSource.setRewardedVideoManualDelegate(self)
         IronSource.setInterstitialDelegate(self)
-        IronSource.add(self)
         
         //        IronSource.initWithAppKey(kAPPKEY)
         // To initialize specific ad units:
@@ -289,6 +288,10 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
         logOut(message: "Kidoz bannerLoadFailed")
     }
     
+    func bannerShowFailed() {
+        logOut(message: "Kidoz bannerLoadFailed")
+    }
+    
     func bannerDidReciveError(_ errorMessage: String!) {
         logOut(message: "Kidoz bannerLoadFailed" + errorMessage)
     }
@@ -340,11 +343,6 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
         view.bringSubviewToFront(mBanner)
         KidozSDK.instance().initializeBanner(with: self, with: mBanner)
         
-    }
-    
-    //MARK: ISImpressionData Functions
-    func impressionDataDidSucceed(_ impressionData: ISImpressionData!) {
-//        logOut(message:String(describing: impressionData))
     }
     
     func setBorder(){

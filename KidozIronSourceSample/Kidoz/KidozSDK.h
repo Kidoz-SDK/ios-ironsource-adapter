@@ -53,6 +53,7 @@
 -(void)bannerIsReady;
 -(void)bannerReturnedWithNoOffers;
 -(void)bannerLoadFailed;
+-(void)bannerShowFailed;
 -(void)bannerDidReciveError:(NSString*)errorMessage;
 -(void)bannerLeftApplication;
 @end
