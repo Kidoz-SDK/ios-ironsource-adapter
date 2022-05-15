@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DFEAFB3827C64EF400325195"
                BuildableName = "KidozIronSourceSample.app"
                BlueprintName = "KidozIronSourceSample"
-               ReferencedContainer = "container:">
+               ReferencedContainer = "container:KidozIronSourceSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "DFEAFB3827C64EF400325195"
             BuildableName = "KidozIronSourceSample.app"
             BlueprintName = "KidozIronSourceSample"
-            ReferencedContainer = "container:">
+            ReferencedContainer = "container:KidozIronSourceSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "DFEAFB3827C64EF400325195"
             BuildableName = "KidozIronSourceSample.app"
             BlueprintName = "KidozIronSourceSample"
-            ReferencedContainer = "container:">
+            ReferencedContainer = "container:KidozIronSourceSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
