@@ -15,7 +15,6 @@ let kAPPKEY = "11ec9bd9d"
 
 class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoManualDelegate,KDZInitDelegate,KDZBannerDelegate{
     
-    var mBanner: UIView!
     @IBOutlet weak var logText: UITextView!
     
     override func viewDidLoad() {
@@ -304,11 +303,11 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
         let BANNER_WIDTH: CGFloat = 320
         let BANNER_HEIGHT: CGFloat = 50
         
-        mBanner = UIView(frame: CGRect(x: 0, y: 0, width: BANNER_WIDTH, height: BANNER_HEIGHT))
-        view.addSubview(mBanner)
-        mBanner.translatesAutoresizingMaskIntoConstraints = false
+        let bannerView = UIView(frame: CGRect(x: 0, y: 0, width: BANNER_WIDTH, height: BANNER_HEIGHT))
+        view.addSubview(bannerView)
+        bannerView.translatesAutoresizingMaskIntoConstraints = false
         view.addConstraints([NSLayoutConstraint(
-            item: mBanner,
+            item: bannerView,
             attribute: .bottom,
             relatedBy: .equal,
             toItem: bottomLayoutGuide,
@@ -316,7 +315,7 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
             multiplier: 1,
             constant: 0),
                              NSLayoutConstraint(
-                                item: mBanner,
+                                item: bannerView,
                                 attribute: .centerX,
                                 relatedBy: .equal,
                                 toItem: view,
@@ -324,7 +323,7 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
                                 multiplier: 1,
                                 constant: 0),
                              NSLayoutConstraint(
-                                item: mBanner,
+                                item: bannerView,
                                 attribute: .height,
                                 relatedBy: .equal,
                                 toItem: nil,
@@ -332,7 +331,7 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
                                 multiplier: 0,
                                 constant: BANNER_HEIGHT),
                              NSLayoutConstraint(
-                                item: mBanner,
+                                item: bannerView,
                                 attribute: .width,
                                 relatedBy: .equal,
                                 toItem: nil,
@@ -340,8 +339,8 @@ class ViewController: UIViewController, ISInterstitialDelegate,ISRewardedVideoMa
                                 multiplier: 0,
                                 constant: BANNER_WIDTH)])
         
-        view.bringSubviewToFront(mBanner)
-        KidozSDK.instance().initializeBanner(with: self, with: mBanner)
+        view.bringSubviewToFront(bannerView)
+        KidozSDK.instance().initializeBanner(with: self, with: bannerView)
         
     }
     
