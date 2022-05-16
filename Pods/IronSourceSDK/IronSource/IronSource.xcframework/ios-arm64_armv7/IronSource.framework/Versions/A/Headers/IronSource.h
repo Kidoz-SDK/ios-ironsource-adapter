@@ -29,6 +29,7 @@
 #import "ISBannerSize.h"
 #import "ISImpressionDataDelegate.h"
 #import "ISConsentViewDelegate.h"
+#import "ISInitializationDelegate.h"
 
 // imports used for custom adapters infra
 #import "ISBaseInterstitial.h"
@@ -44,8 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
 #define IS_OFFERWALL @"offerwall"
 #define IS_BANNER @"banner"
 
-static NSString * const MEDIATION_SDK_VERSION     = @"7.2.0";
-static NSString * GitHash = @"c5e106383";
+static NSString * const MEDIATION_SDK_VERSION     = @"7.2.1.2";
+static NSString * GitHash = @"c97946932";
 
 /*
     This constant is for sending an external impression data from mopub
@@ -187,6 +188,14 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
 + (void)initWithAppKey:(NSString *)appKey;
 
 /**
+ @abstract Initializes IronSource's SDK with all the ad units that are defined in the platform.
+ 
+ @param appKey Application key.
+ @param delegate Init delegate.
+ */
++ (void)initWithAppKey:(NSString *)appKey delegate:(nullable id<ISInitializationDelegate>)delegate;
+
+/**
  @abstract Initializes IronSource's SDK with the requested ad units.
  @discussion This method checks if the requested ad units are defined in the platform, and initializes them.
  
@@ -202,6 +211,24 @@ static NSString * const DataSource_MOPUB     = @"MoPub";
  @param adUnits An array of ad units to initialize.
  */
 + (void)initWithAppKey:(NSString *)appKey adUnits:(NSArray<NSString *> *)adUnits;
+
+/**
+ @abstract Initializes IronSource's SDK with the requested ad units.
+ @discussion This method checks if the requested ad units are defined in the platform, and initializes them.
+ 
+ The adUnits array should contain string values that represent the ad units.
+ 
+ It is recommended to use predefined constansts:
+ 
+ IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL, IS_BANNER
+ 
+ e.g: [IronSource initWithAppKey:appKey adUnits:@[IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL, IS_BANNER]];
+ 
+ @param appKey Application key.
+ @param adUnits An array of ad units to initialize.
+ @param delegate Init delegate.
+ */
++ (void)initWithAppKey:(NSString *)appKey adUnits:(NSArray<NSString *> *)adUnits delegate:(nullable id<ISInitializationDelegate>)delegate;
 
 /**
  @abstract Initializes ironSource SDK in demand only mode.

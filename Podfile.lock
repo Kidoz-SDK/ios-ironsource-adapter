@@ -1,16 +1,16 @@
 PODS:
-  - IronSourceSDK (7.2.0.0)
+  - IronSourceSDK (7.2.1.2)
 
 DEPENDENCIES:
-  - IronSourceSDK (= 7.2.0)
+  - IronSourceSDK (= 7.2.1.2)
 
 SPEC REPOS:
   trunk:
     - IronSourceSDK
 
 SPEC CHECKSUMS:
-  IronSourceSDK: 6420dba7fc174cdbfd0bc3141ecad83c3e58cccc
+  IronSourceSDK: 58febda45afa4b16f91dacb1b3541737ae3fedb3
 
-PODFILE CHECKSUM: 47245b0233d9de74d529698337b19a511b4a2d1d
+PODFILE CHECKSUM: 836405f3537dce85cfd72b9066090b649ab69a6b
 
 COCOAPODS: 1.11.3

@@ -13,10 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) NSString *value;
 
-+(ISAdUnit*)REWARDED_VIDEO;
-+(ISAdUnit*)INTERSTITIAL;
-+(ISAdUnit*)OFFERWALL;
-+(ISAdUnit*)BANNER;
++(ISAdUnit*)IS_AD_UNIT_REWARDED_VIDEO;
++(ISAdUnit*)IS_AD_UNIT_INTERSTITIAL;
++(ISAdUnit*)IS_AD_UNIT_OFFERWALL;
++(ISAdUnit*)IS_AD_UNIT_BANNER;
 
 - (instancetype)initWithValue:(NSString*)value;
 

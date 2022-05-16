@@ -19,7 +19,7 @@ none        - a network can't load an instance while showing any of its instance
 
 
 typedef NS_ENUM(NSInteger, ISLoadWhileShowSupportState) {
-    NONE = 0,
+    LOAD_WHILE_SHOW_NONE = 0,
     LOAD_WHILE_SHOW_BY_INSTANCE = 1,
     LOAD_WHILE_SHOW_BY_NETWORK = 2
 };

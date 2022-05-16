@@ -1,6 +1,4 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-EXCLUDED_ARCHS[sdk=iphoneos*] = i386 x86_64
-EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 arm64e armv7 armv7s
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/IronSourceSDK/IronSource" "${PODS_XCFRAMEWORKS_BUILD_DIR}/IronSourceSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
