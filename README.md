@@ -73,3 +73,4 @@ In order to support CPI attribution on iOS, please make sure to include the Kido
 ```java
 v79kvwwj4g.skadnetwork	
 ```
+For more information, see [Configuring a Source App for SKAdNetwork](https://developer.apple.com/documentation/storekit/skadnetwork/configuring_a_source_app).
