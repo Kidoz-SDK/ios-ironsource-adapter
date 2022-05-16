@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		008537D8F889547C4DDC8E4E /* Pods-KidozIronSourceSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidozIronSourceSample.release.xcconfig"; path = "Target Support Files/Pods-KidozIronSourceSample/Pods-KidozIronSourceSample.release.xcconfig"; sourceTree = "<group>"; };
-		3160A0CC20396269433F57A3 /* Pods_KidozIronSourceSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidozIronSourceSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		433006B09C61EAF05FE5574F /* Pods-KidozIronSourceSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidozIronSourceSample.debug.xcconfig"; path = "Target Support Files/Pods-KidozIronSourceSample/Pods-KidozIronSourceSample.debug.xcconfig"; sourceTree = "<group>"; };
 		DFCBAC912831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a"; sourceTree = "<group>"; };
 		DFEAFB3927C64EF400325195 /* KidozIronSourceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidozIronSourceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +34,6 @@
 		DFEAFB5627C653A000325195 /* KidozSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidozSDK.h; sourceTree = "<group>"; };
 		DFEAFB5727C6544500325195 /* Kidoz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kidoz-Bridging-Header.h"; sourceTree = "<group>"; };
 		DFEAFB5827C6550500325195 /* IronSource.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IronSource.xcframework; path = Pods/IronSourceSDK/IronSource/IronSource.xcframework; sourceTree = "<group>"; };
-		DFEAFB5C27C6612E00325195 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IronSource.framework; path = Pods/IronSourceSDK/IronSource/IronSource.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +61,7 @@
 		1587CB3F9D51EC7E4FCC3179 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DFEAFB5C27C6612E00325195 /* IronSource.framework */,
 				DFEAFB5827C6550500325195 /* IronSource.xcframework */,
-				3160A0CC20396269433F57A3 /* Pods_KidozIronSourceSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
