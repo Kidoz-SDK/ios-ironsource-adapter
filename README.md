@@ -65,3 +65,11 @@ Until ironSource mediation SDK supports banners custom adapters publishers can l
 Make sure the `Publisher ID` and `Token` you send on the `KidozSDK.instance()initialize(...)` method are your own unique parameters and not the Kidoz Test parameters used in this sample. This parameters need to be the same ones you used as network level parameters when adding the Kidoz network on the ironSource dashboard.<BR>
   
 See the [sample code](https://github.com/Kidoz-SDK/ios-ironsource-adapter/blob/main/KidozIronSourceSample/ViewController.swift) for example as how to init, load and show Kidoz Banners and receive lifecycle callbacks.
+  
+# iOS SKAdNetwork Support
+
+In order to support CPI attribution on iOS, please make sure to include the Kidoz ad network ID in your app property list file (Info.plist):
+
+```java
+v79kvwwj4g.skadnetwork	
+```
