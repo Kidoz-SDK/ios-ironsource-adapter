@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84B51B7C2C97EE8C6964D897 /* Pods_KidozIronSourceSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F139A83C216E51C7EE20BC99 /* Pods_KidozIronSourceSample.framework */; };
 		DFCBAC922831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCBAC912831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a */; };
 		DFEAFB3D27C64EF400325195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEAFB3C27C64EF400325195 /* AppDelegate.swift */; };
 		DFEAFB3F27C64EF400325195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEAFB3E27C64EF400325195 /* SceneDelegate.swift */; };
@@ -35,7 +34,6 @@
 		DFEAFB5627C653A000325195 /* KidozSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidozSDK.h; sourceTree = "<group>"; };
 		DFEAFB5727C6544500325195 /* Kidoz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kidoz-Bridging-Header.h"; sourceTree = "<group>"; };
 		DFEAFB5827C6550500325195 /* IronSource.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IronSource.xcframework; path = Pods/IronSourceSDK/IronSource/IronSource.xcframework; sourceTree = "<group>"; };
-		F139A83C216E51C7EE20BC99 /* Pods_KidozIronSourceSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidozIronSourceSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,6 @@
 			files = (
 				DFEAFB5F27C6621000325195 /* IronSource.xcframework in Frameworks */,
 				DFCBAC922831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a in Frameworks */,
-				84B51B7C2C97EE8C6964D897 /* Pods_KidozIronSourceSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				DFEAFB5827C6550500325195 /* IronSource.xcframework */,
-				F139A83C216E51C7EE20BC99 /* Pods_KidozIronSourceSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
