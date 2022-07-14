@@ -45,10 +45,10 @@
                                     delegate:(nonnull id<ISBannerAdapterDelegate>)delegate;
 
 - (void)loadBannerForBiddingWithServerData:(nonnull NSString *)serverData
-                                            viewController:(nonnull UIViewController *)viewController
-                                            size:(nonnull ISBannerSize *)size
-                                   adapterConfig:(nonnull ISAdapterConfig *)adapterConfig
-                                        delegate:(nonnull id <ISBannerAdapterDelegate>)delegate;
+                            viewController:(nonnull UIViewController *)viewController
+                                      size:(nonnull ISBannerSize *)size
+                             adapterConfig:(nonnull ISAdapterConfig *)adapterConfig
+                                  delegate:(nonnull id <ISBannerAdapterDelegate>)delegate;
 
 
 @end

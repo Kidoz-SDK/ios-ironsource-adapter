@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFCBAC922831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCBAC912831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a */; };
+		55949F895E0E053A673074B7 /* Pods_KidozIronSourceSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1A156F7DFC342D782296B1 /* Pods_KidozIronSourceSample.framework */; };
+		DF08F6E0288028D0000A8FEA /* libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF08F6DF288028D0000A8FEA /* libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a */; };
 		DFEAFB3D27C64EF400325195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEAFB3C27C64EF400325195 /* AppDelegate.swift */; };
 		DFEAFB3F27C64EF400325195 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEAFB3E27C64EF400325195 /* SceneDelegate.swift */; };
 		DFEAFB4127C64EF400325195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEAFB4027C64EF400325195 /* ViewController.swift */; };
@@ -21,7 +22,8 @@
 /* Begin PBXFileReference section */
 		008537D8F889547C4DDC8E4E /* Pods-KidozIronSourceSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidozIronSourceSample.release.xcconfig"; path = "Target Support Files/Pods-KidozIronSourceSample/Pods-KidozIronSourceSample.release.xcconfig"; sourceTree = "<group>"; };
 		433006B09C61EAF05FE5574F /* Pods-KidozIronSourceSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidozIronSourceSample.debug.xcconfig"; path = "Target Support Files/Pods-KidozIronSourceSample/Pods-KidozIronSourceSample.debug.xcconfig"; sourceTree = "<group>"; };
-		DFCBAC912831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a"; sourceTree = "<group>"; };
+		9F1A156F7DFC342D782296B1 /* Pods_KidozIronSourceSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidozIronSourceSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF08F6DF288028D0000A8FEA /* libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a"; sourceTree = "<group>"; };
 		DFEAFB3927C64EF400325195 /* KidozIronSourceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidozIronSourceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEAFB3C27C64EF400325195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFEAFB3E27C64EF400325195 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +32,7 @@
 		DFEAFB4527C64EF600325195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFEAFB4827C64EF600325195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFEAFB4A27C64EF600325195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFEAFB5227C6527F00325195 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DFEAFB5227C6527F00325195 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DFEAFB5627C653A000325195 /* KidozSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KidozSDK.h; sourceTree = "<group>"; };
 		DFEAFB5727C6544500325195 /* Kidoz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kidoz-Bridging-Header.h"; sourceTree = "<group>"; };
 		DFEAFB5827C6550500325195 /* IronSource.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IronSource.xcframework; path = Pods/IronSourceSDK/IronSource/IronSource.xcframework; sourceTree = "<group>"; };
@@ -42,7 +44,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFEAFB5F27C6621000325195 /* IronSource.xcframework in Frameworks */,
-				DFCBAC922831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a in Frameworks */,
+				DF08F6E0288028D0000A8FEA /* libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a in Frameworks */,
+				55949F895E0E053A673074B7 /* Pods_KidozIronSourceSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				DFEAFB5827C6550500325195 /* IronSource.xcframework */,
+				9F1A156F7DFC342D782296B1 /* Pods_KidozIronSourceSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,7 +108,7 @@
 		DFEAFB5427C6530600325195 /* Kidoz */ = {
 			isa = PBXGroup;
 			children = (
-				DFCBAC912831056500A686B3 /* libKidozSDK_IronSourceAdapter-v8.9.1_1.1.0.a */,
+				DF08F6DF288028D0000A8FEA /* libKidozSDK_IronSourceAdapter-v8.9.3_1.1.1.a */,
 				DFEAFB5627C653A000325195 /* KidozSDK.h */,
 			);
 			path = Kidoz;
@@ -374,7 +378,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,7 +387,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KidozIronSourceSample/Kidoz",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 8.9.3_1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kidoz.ios.ironsource.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -413,7 +417,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,7 +426,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/KidozIronSourceSample/Kidoz",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 8.9.3_1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kidoz.ios.ironsource.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FDAB1C7BB04E362D964A18F59B33C639 /* PBXContainerItemProxy */ = {
+		528F2EE1698083CB503843A2ECB09C34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,163 +36,175 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00EBA1A3713EA12776501705B5BFEED3 /* ISBaseInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseInterstitial.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseInterstitial.h"; sourceTree = "<group>"; };
-		0152A1C472D8B735099A73EC9A0B2C98 /* ISBaseNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseNetworkAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseNetworkAdapter.h"; sourceTree = "<group>"; };
-		01D1ACBDA137B4FA98C8A0789629D0E3 /* ISDemandOnlyInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyInterstitialDelegate.h"; sourceTree = "<group>"; };
-		06964F762979A3B5AC186B5E5D7E2446 /* ISEventsSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISEventsSettings.h"; sourceTree = "<group>"; };
-		09129E66C17758B2236E51AAB26F06EF /* ISNetworkInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISNetworkInitializationDelegate.h"; sourceTree = "<group>"; };
-		0A7300974A259EC8B281B702BCF0B7BD /* ISInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInitializationDelegate.h"; sourceTree = "<group>"; };
-		0AB1DA6709025461E41044F748207E74 /* ISBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdapter.h"; sourceTree = "<group>"; };
-		0E3A3825F8F2F9AAA324735B6618F463 /* ISAdUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdUnit.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdUnit.h"; sourceTree = "<group>"; };
-		0EF4ED96E1CD925703D5229F06C9246D /* ISMetaDataUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataUtils.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaDataUtils.h"; sourceTree = "<group>"; };
-		0F061F9C8B0B3AB90B34A3D4077AD68C /* ISImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISImpressionData.h"; sourceTree = "<group>"; };
-		0F53C64A98FCFED5AFB6671D8000D756 /* ISInterstitialAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterDelegate.h"; sourceTree = "<group>"; };
-		0FC5D69F448157627D8EF29EF99140DC /* ISRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
-		10AE642A6A0C47FC0AE4312B7D265C9A /* ISBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdapter.h"; sourceTree = "<group>"; };
-		11F52FE9CDB0DA7DE5B0D9F24C40D33E /* ISBannerAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerAdapterProtocol.h"; sourceTree = "<group>"; };
-		12365DD2451BF0453B593E2D1F83DF1F /* ISBaseRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseRewardedVideo.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseRewardedVideo.h"; sourceTree = "<group>"; };
-		12C9D3C9B0F4E9D3C0EFC9C46F64F27F /* ISOfferwallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallDelegate.h"; sourceTree = "<group>"; };
-		1390D958320BC7EDBE2463D8ED1E7A99 /* ConcurrentMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableDictionary.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableDictionary.h"; sourceTree = "<group>"; };
-		178D7F08421041CAED437DB810481717 /* ISBiddingDataAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBiddingDataAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBiddingDataAdapterProtocol.h"; sourceTree = "<group>"; };
-		17B2334FA2AC9F179C4D40E666A0F0A1 /* ISBannerSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerSize.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerSize.h"; sourceTree = "<group>"; };
-		19C5C9A780CDE861F4D0D82289B7D253 /* ConcurrentMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableDictionary.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableDictionary.h"; sourceTree = "<group>"; };
-		1DE39433C9D666366032DA681550EFD3 /* ISRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
-		1E04A268B506698ADCF853BE189A5A62 /* ISBannerAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerAdapterDelegate.h"; sourceTree = "<group>"; };
-		1E80A6A31FB8A975C525973D5A706F4B /* ISBaseRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseRewardedVideo.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseRewardedVideo.h"; sourceTree = "<group>"; };
-		2165B6656B504E2503C113FF024E39BB /* ISAdapterErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrorType.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterErrorType.h"; sourceTree = "<group>"; };
-		2179C6F9E836002C47EA131B966BC48F /* ISAdapterBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterBaseProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterBaseProtocol.h"; sourceTree = "<group>"; };
-		2270E636BCD2E8F3AD1AE30EAB2407E0 /* ISSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegment.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSegment.h"; sourceTree = "<group>"; };
-		2359E1EFE7031833CC08A5C9F1CAD3BF /* ISMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaData.h"; sourceTree = "<group>"; };
-		259ABD4ED2141B01F197A57CA1FAFD9F /* ISOfferwallAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterProtocol.h"; sourceTree = "<group>"; };
-		294373880CBD7F83E6C926504BD2D805 /* ISAdapterAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdDelegate.h"; sourceTree = "<group>"; };
-		2FB60F38BC23496146E7CA594902085B /* ISAdapterSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterSettingsProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterSettingsProtocol.h"; sourceTree = "<group>"; };
-		366EA806A185145E0DB06AF6AA98C414 /* ISInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInitializationDelegate.h"; sourceTree = "<group>"; };
-		38636CA63F4A5D993F85CA1862680207 /* ISSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegment.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSegment.h"; sourceTree = "<group>"; };
-		3AAEA00E814D7DC7078A87878122BB75 /* ISRewardedVideoAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterDelegate.h"; sourceTree = "<group>"; };
-		3BBD7692014794E9061BAA7C75F79E2A /* ISLoggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggerManager.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoggerManager.h"; sourceTree = "<group>"; };
-		3FAA0C2604002129CF8E752770419763 /* ISAdapterConsentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConsentProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterConsentProtocol.h"; sourceTree = "<group>"; };
-		40192E0CDB89C5CED014AC043CFF01B4 /* ISInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialDelegate.h"; sourceTree = "<group>"; };
-		40D14732396455B2BEFD3D3433B54855 /* ISDataKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDataKeys.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDataKeys.h"; sourceTree = "<group>"; };
-		41FA7AAEFCF4E4210BB3092A5CA10DF0 /* ISIntegrationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISIntegrationHelper.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISIntegrationHelper.h"; sourceTree = "<group>"; };
-		4307AE7CC69F8E7B9AAEAC878DC1F11F /* ISInterstitialAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterDelegate.h"; sourceTree = "<group>"; };
-		44D480986064EB2E8412A249DD6CFD06 /* ISAdapterMetaDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterMetaDataProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterMetaDataProtocol.h"; sourceTree = "<group>"; };
-		44F5F72B2DF50F2C49D12E5EC4A25CB8 /* ISRewardedVideoAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterDelegate.h"; sourceTree = "<group>"; };
-		45B601C0471D5D5CB7692588DBF8BFDB /* ISLogDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLogDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLogDelegate.h"; sourceTree = "<group>"; };
-		46F0FF61756F687B2D80D3D5ACA11D9C /* ISRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoDelegate.h"; sourceTree = "<group>"; };
-		484833A763CE65CD2720866536C4B582 /* ISPlacementInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPlacementInfo.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISPlacementInfo.h"; sourceTree = "<group>"; };
-		4E70B11B96166659E310F54CECB3FFE7 /* ISBaseAdapter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISBaseAdapter+Internal.h"; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdapter+Internal.h"; sourceTree = "<group>"; };
-		4EEB561F58E89F361B6552FD04889EBB /* ISEventsReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsReporting.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISEventsReporting.h"; sourceTree = "<group>"; };
-		5044CDD6CD94A8E9BF03C4F358997786 /* ISAdapterErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrorType.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterErrorType.h"; sourceTree = "<group>"; };
+		0428338A63938F7D09195EE014AEE772 /* LevelPlayRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		071360365458BDD6DB9C2B993C638FE0 /* LevelPlayRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
+		07D837938A2266173DB715C49ECB7DCE /* ISAdInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdInfo.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdInfo.h"; sourceTree = "<group>"; };
+		0806B6CCFF3BB4953680D653A22169D5 /* ISRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		0D23C033E717E27BAEB61D2A182C6AD3 /* ISBaseNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseNetworkAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseNetworkAdapter.h"; sourceTree = "<group>"; };
+		0DEB5F38C79549A1606301E16BEB87BC /* ISAdapterLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterLoggerProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterLoggerProtocol.h"; sourceTree = "<group>"; };
+		0E77E1E1892A24398887612BBA876474 /* ISMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaData.h"; sourceTree = "<group>"; };
+		1127DFF583F0819FCEB4C1B91450C1D5 /* ISBaseAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdAdapter.h"; sourceTree = "<group>"; };
+		113A92CA340F5129052273EF08EFB789 /* ISBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerDelegate.h"; sourceTree = "<group>"; };
+		14CE81C42F07751A4D646593ABEB7467 /* ISBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerView.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerView.h"; sourceTree = "<group>"; };
+		17238BFD782C4A94F9D6B2589CEB5A61 /* ISAdapterDispatcherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDispatcherProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterDispatcherProtocol.h"; sourceTree = "<group>"; };
+		19CADEF396F41596F01C9FED99DE4C48 /* ISPlacementInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPlacementInfo.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISPlacementInfo.h"; sourceTree = "<group>"; };
+		1A03493766DC7401C8BC2D308E188994 /* ISDataKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDataKeys.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDataKeys.h"; sourceTree = "<group>"; };
+		1EA97E4AF4668CE870AC120F1E23FFD5 /* ISAdapterErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrorType.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterErrorType.h"; sourceTree = "<group>"; };
+		1EDBD102224BF14CF92E69CFABE4A0A5 /* ISAdapterDebugProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDebugProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterDebugProtocol.h"; sourceTree = "<group>"; };
+		21293CB0815F7B1B42C753E9AB779F78 /* ISRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
+		21D6F59F4BFD87123015660DCCACAD64 /* ISAdapterErrorType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrorType.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterErrorType.h"; sourceTree = "<group>"; };
+		2298CACBA9238F01594098B00BFB1267 /* ISDemandOnlyInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyInterstitialDelegate.h"; sourceTree = "<group>"; };
+		237404033434E1C6737607F3A6ABA6B3 /* ISRewardedVideoAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterProtocol.h"; sourceTree = "<group>"; };
+		246799D22AA08BAE28EC1C15EE0032A3 /* LevelPlayBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/LevelPlayBannerDelegate.h"; sourceTree = "<group>"; };
+		24688D62CBF881ABAA3D04D245F13B44 /* ISOfferwallAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterDelegate.h"; sourceTree = "<group>"; };
+		2943C38ECB470523044FF18CC7C993E1 /* ISEventsReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsReporting.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISEventsReporting.h"; sourceTree = "<group>"; };
+		29CD22CD651183BF7DBB7C7D6AE183EE /* ISAdapterAdInteractionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdInteractionDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdInteractionDelegate.h"; sourceTree = "<group>"; };
+		29F74EDAE1B3CCA4EB6A2E563EDD2C0B /* ISDemandOnlyBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyBannerDelegate.h"; sourceTree = "<group>"; };
+		2A8055FC0B652F955610FA290D618EE0 /* ISAdapterLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterLoggerProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterLoggerProtocol.h"; sourceTree = "<group>"; };
+		2FDBB21ECAB810CC7A25DD2B09A03003 /* ISBaseInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseInterstitial.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseInterstitial.h"; sourceTree = "<group>"; };
+		363AEBD5D6F0997E8106628C5073FD23 /* ISAdInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdInfo.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdInfo.h"; sourceTree = "<group>"; };
+		36FD56782942F91443529E4203562C92 /* ISConsentViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConsentViewDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISConsentViewDelegate.h"; sourceTree = "<group>"; };
+		37E2448EF2A292BCA58685FDE6F2E7B2 /* ISAdapterDispatcherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDispatcherProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterDispatcherProtocol.h"; sourceTree = "<group>"; };
+		38CD4CBFE914DC8E811C47BAC0E145B6 /* ISBaseNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseNetworkAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseNetworkAdapter.h"; sourceTree = "<group>"; };
+		38EB235F8516BFEF4EEA0045DE1C2669 /* ISDemandOnlyInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyInterstitialDelegate.h"; sourceTree = "<group>"; };
+		3C4AB63EB3242580559736E9A4776153 /* ISBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerView.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerView.h"; sourceTree = "<group>"; };
+		3C86029E13BF7842433636DC422FF62D /* ISDemandOnlyRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		3E3F3AAF8F2C5B106702565D98452104 /* ISMetaDataUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataUtils.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaDataUtils.h"; sourceTree = "<group>"; };
+		3E8FD136374E4ECB0B045B619EB69BCA /* ConcurrentMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableDictionary.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableDictionary.h"; sourceTree = "<group>"; };
+		4381B4831799620F7DF3E2A7C378FD4C /* ISMetaDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataConstants.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaDataConstants.h"; sourceTree = "<group>"; };
+		452B94CF20C347103A576DE177F8D95D /* ISAdapterSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterSettingsProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterSettingsProtocol.h"; sourceTree = "<group>"; };
+		45B1B3940C7D2D33ED41253E8CFFAD38 /* ConcurrentMutableSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableSet.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableSet.h"; sourceTree = "<group>"; };
+		461164B14F1E073CF6F22132A92AE583 /* ISRewardedVideoAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterDelegate.h"; sourceTree = "<group>"; };
+		47A27B391C374CF859A690969368C130 /* ISRewardedVideoAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterDelegate.h"; sourceTree = "<group>"; };
+		4AEDAFBA3289F950F5AF3F1E57919C25 /* ISRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		4B0D6E438FFAE871F1F8896B6E1C9E70 /* ISBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdapter.h"; sourceTree = "<group>"; };
+		4B13A7835932E85F9A345D17707E7136 /* ISAdapterDebugProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDebugProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterDebugProtocol.h"; sourceTree = "<group>"; };
+		4E89D056A515906ECC85425D15C5F2E1 /* ISAdapterBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterBaseProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterBaseProtocol.h"; sourceTree = "<group>"; };
+		4F21C7B911DBEDB567736C6C6FA7C40F /* IronSourceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IronSourceSDK.release.xcconfig; sourceTree = "<group>"; };
+		4FBDDEC005D3C582E5A7E4DEEE0FABF7 /* ISProductSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISProductSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISProductSettings.h"; sourceTree = "<group>"; };
+		5058C6E2FA3BA503CC9452F3D195FB4C /* ISLoggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggerManager.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoggerManager.h"; sourceTree = "<group>"; };
 		517304020D2DDFBF180CB41FCBAC9C3F /* Pods-KidozIronSourceSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KidozIronSourceSample-dummy.m"; sourceTree = "<group>"; };
-		5715A06192B1B2850468A2782590EA75 /* ISLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLog.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLog.h"; sourceTree = "<group>"; };
-		58A35880ED2D44BC1A0011E2796349C3 /* ISBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerDelegate.h"; sourceTree = "<group>"; };
-		5903AC377D1A304EC59E601B3BBB7C06 /* IronSourceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IronSourceSDK.debug.xcconfig; sourceTree = "<group>"; };
-		59A188358B6F5B9B2B56000397AB607C /* ISImpressionDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionDataDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISImpressionDataDelegate.h"; sourceTree = "<group>"; };
-		5E4FB22EB3359142EE2DEBAAFDAA5812 /* ISSegmentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegmentDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSegmentDelegate.h"; sourceTree = "<group>"; };
-		61C93096D84EC7D9A0DBF697520428A2 /* ISGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISGender.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISGender.h"; sourceTree = "<group>"; };
+		5249E43F34E1F3547DF981E6C12D2334 /* ISBaseAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdapter.h"; sourceTree = "<group>"; };
+		52EFCD2CC888308C0292EF37F5F4EA8B /* ISBannerAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerAdapterProtocol.h"; sourceTree = "<group>"; };
+		5373FC72BF6A6F34D54949AC3C4F6CE3 /* ISAdapterAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdDelegate.h"; sourceTree = "<group>"; };
+		5429DEB7A23B3E45F1EA8B3CEC70DBC6 /* ISSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegment.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSegment.h"; sourceTree = "<group>"; };
+		54704F10B32D15EF14D37CE2072BAE9E /* ISProductSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISProductSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISProductSettings.h"; sourceTree = "<group>"; };
+		56A9B80B44CAC964994CFEA9E2941EC0 /* ISSupersonicAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSupersonicAdsConfiguration.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSupersonicAdsConfiguration.h"; sourceTree = "<group>"; };
+		56AAB26423B6FFDF1ECFFE035CEA20FB /* ISBannerSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerSize.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerSize.h"; sourceTree = "<group>"; };
+		59A6AE7BFB689ACA3B1CFA186DCC5F7A /* ISError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISError.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISError.h"; sourceTree = "<group>"; };
+		5D98D61B4467F45BB8B2B73A5B16041F /* IronSourceSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IronSourceSDK.debug.xcconfig; sourceTree = "<group>"; };
 		62F382D6E75636A305F1715F5F8CAAA4 /* Pods-KidozIronSourceSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidozIronSourceSample.debug.xcconfig"; sourceTree = "<group>"; };
-		6522FE2F7CC2FBD69BBEC435B62A4DB6 /* ISPlacementInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPlacementInfo.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISPlacementInfo.h"; sourceTree = "<group>"; };
-		67597315A4184C8A10187C8712013642 /* ISConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISConfigurations.h"; sourceTree = "<group>"; };
-		68D79ED2F73DEB980F944B8B926ED181 /* ISAdapterAdRewardedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdRewardedDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdRewardedDelegate.h"; sourceTree = "<group>"; };
-		69F55869929C3D8D2D3CCF6E996C8124 /* ISImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISImpressionData.h"; sourceTree = "<group>"; };
-		6A9EC2445EA5E85985706B74E3872D6F /* ISBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerView.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerView.h"; sourceTree = "<group>"; };
-		6BA77F9F26B0DECBBFDB3B9DFA986EAF /* ISLoadWhileShowSupportState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoadWhileShowSupportState.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoadWhileShowSupportState.h"; sourceTree = "<group>"; };
-		6DDD539F531FD7E1A7D6295F168EDECF /* ISError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISError.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISError.h"; sourceTree = "<group>"; };
-		6F123549F4464AF65B82C95A3029B17C /* ISInterstitialAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterProtocol.h"; sourceTree = "<group>"; };
-		6F5B79AEDFCB19ABBA84A1D4CE7D5D10 /* IronSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IronSource.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/IronSource.h"; sourceTree = "<group>"; };
-		70F4CFAB012A4E32A96CA9086942434B /* ISLogDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLogDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLogDelegate.h"; sourceTree = "<group>"; };
-		717B5E1A44E3CA0AC0E36BA18694FBA5 /* ISProductSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISProductSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISProductSettings.h"; sourceTree = "<group>"; };
+		64AE4DE57B4E3C1C5AE516D7618DECE4 /* ISNetworkInitCallbackProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitCallbackProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISNetworkInitCallbackProtocol.h"; sourceTree = "<group>"; };
+		659680A2113ACF2ADB3B5414073F9502 /* ISAdapterBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterBaseProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterBaseProtocol.h"; sourceTree = "<group>"; };
+		697A02FE542CD404552301FDFA5FAE80 /* ISConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISConfigurations.h"; sourceTree = "<group>"; };
+		6B2E1AB78AA5409A30C9FAE6E704309E /* ISBaseAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdAdapter.h"; sourceTree = "<group>"; };
+		6B5BB8C8803BF7B590B9C46300B23FD6 /* ISSegmentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegmentDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSegmentDelegate.h"; sourceTree = "<group>"; };
+		6D1F39BB4162FBC19889CAB6D1F5C288 /* LevelPlayRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		6F1F0547FAE5B84069C423EA2353369D /* ISBaseAdInteractionAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdInteractionAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdInteractionAdapter.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73786A0D249732FCA596B810DDE2785C /* ISAdapterAdRewardedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdRewardedDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdRewardedDelegate.h"; sourceTree = "<group>"; };
-		74A371C83CCDEEAAFB1EA9AEB533E3AB /* ISAdapterSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterSettingsProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterSettingsProtocol.h"; sourceTree = "<group>"; };
-		74BB726563FEBE4F8295334A74A5A2C8 /* ISLoggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggerManager.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoggerManager.h"; sourceTree = "<group>"; };
-		76D5E2A19AF1151BBB0F7005AF8067A0 /* IronSource.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = IronSource.xcframework; path = IronSource/IronSource.xcframework; sourceTree = "<group>"; };
-		7C3C0CA21C87A340412C01AFF723878E /* ISAdapterBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterBaseProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterBaseProtocol.h"; sourceTree = "<group>"; };
-		7F5EE1CCF8CCB1D983AA5BAEE6DA9EAC /* ISBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerDelegate.h"; sourceTree = "<group>"; };
-		8030B1F8F07BFAA88B28DC0B305BEE0C /* ISOfferwallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallDelegate.h"; sourceTree = "<group>"; };
+		73407981D67F0FCA0FC11A3AB20509A3 /* ISImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISImpressionData.h"; sourceTree = "<group>"; };
+		74BAFC57963138DC441ABAE5DF98E363 /* ISIntegrationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISIntegrationHelper.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISIntegrationHelper.h"; sourceTree = "<group>"; };
+		79583601F8E01BFFA1DF5705F3E507CA /* ISLoggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggerManager.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoggerManager.h"; sourceTree = "<group>"; };
+		7BB0C467294878DF34FE5A27078CA9AE /* ISInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialDelegate.h"; sourceTree = "<group>"; };
+		8108A284BDFE5D861224121FEF095FCE /* ISAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdData.h"; sourceTree = "<group>"; };
+		817F6A234537863574F25ADB73E26E34 /* ISNetworkInitCallbackProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitCallbackProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISNetworkInitCallbackProtocol.h"; sourceTree = "<group>"; };
 		82AA42F6DBA2E59FBA7B5D543FC55D2F /* Pods-KidozIronSourceSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KidozIronSourceSample"; path = Pods_KidozIronSourceSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84C79A82F84D771758812E6AA07F2677 /* ISAdapterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConfig.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterConfig.h"; sourceTree = "<group>"; };
-		851E82D7152D593CBAF26736931D3990 /* ISInterstitialAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterProtocol.h"; sourceTree = "<group>"; };
-		870D08F66C09169C665DB73063B48979 /* IronSourceSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IronSourceSDK.release.xcconfig; sourceTree = "<group>"; };
-		8A42F70273290CC8F49E942F5935038F /* ISBaseInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseInterstitial.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseInterstitial.h"; sourceTree = "<group>"; };
+		859E371ED2C2C548B66F2FA7A3D3F1D5 /* ISOfferwallAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterDelegate.h"; sourceTree = "<group>"; };
+		892CFAB02EAEEB51D0CEAD6FFCBC9A38 /* ISAdUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdUnit.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdUnit.h"; sourceTree = "<group>"; };
+		894B699CA7E04089A8F8D4BCA02FE027 /* ISBaseAdapter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISBaseAdapter+Internal.h"; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdapter+Internal.h"; sourceTree = "<group>"; };
+		8C800FCD750E47973B999FAC65838A06 /* ISAdapterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConfig.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterConfig.h"; sourceTree = "<group>"; };
+		8CE7B84551A9FFB22762B7594C3981BB /* ISBannerAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerAdapterDelegate.h"; sourceTree = "<group>"; };
 		8D7A1DAFCB471EF754F8A87560980F04 /* Pods-KidozIronSourceSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KidozIronSourceSample-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D841AFD86FFABB0E19EDBE64B71B6B4 /* ISAdapterDebugProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDebugProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterDebugProtocol.h"; sourceTree = "<group>"; };
-		8D8638A6613E8CF947FB7078DD6DA507 /* ISDataKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDataKeys.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDataKeys.h"; sourceTree = "<group>"; };
-		8DB8DC23E2BF78C17A57A5606257E12B /* ISSupersonicAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSupersonicAdsConfiguration.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSupersonicAdsConfiguration.h"; sourceTree = "<group>"; };
-		8E34B3697E12010555A3F4933EB899DE /* ISAdapterAdInteractionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdInteractionDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdInteractionDelegate.h"; sourceTree = "<group>"; };
-		92D57ADBDD8C186F8EDBA938C46848DB /* ISError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISError.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISError.h"; sourceTree = "<group>"; };
-		9347F5DECCA171C03882925068264F5C /* ISEventsSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISEventsSettings.h"; sourceTree = "<group>"; };
-		9497B80470FF0048A8D5655C34C17E74 /* ISNetworkInitCallbackProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitCallbackProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISNetworkInitCallbackProtocol.h"; sourceTree = "<group>"; };
-		956B421D5873E4D89F85BC295BCA9BFD /* ISLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLog.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLog.h"; sourceTree = "<group>"; };
-		9653D58D583859AA7FDD1F0E20DF0E71 /* ISAdUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdUnit.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdUnit.h"; sourceTree = "<group>"; };
+		8E7FAD38CF8063C2FBECFA062A77D30B /* ISIntegrationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISIntegrationHelper.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISIntegrationHelper.h"; sourceTree = "<group>"; };
+		8FDB6721580CD31BCDF5DB150E122C0E /* ISConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISConfigurations.h"; sourceTree = "<group>"; };
+		962A8578C1FA4B002FF27964328412CE /* ISError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISError.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISError.h"; sourceTree = "<group>"; };
 		97D350126B21F37C2F31EF44478BE8C0 /* Pods-KidozIronSourceSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KidozIronSourceSample-umbrella.h"; sourceTree = "<group>"; };
-		9AB10EAFE65AE16C71B0AEE485617BAF /* ISRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoDelegate.h"; sourceTree = "<group>"; };
-		9B78029EBDBD0668A4AEBEDD795D8218 /* ISInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialDelegate.h"; sourceTree = "<group>"; };
+		984C9ABDCE299FF3D127A86DD0A9C1E6 /* ISLoggersSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggersSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoggersSettings.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E970E8B500A8EA67585594407034CA0 /* ISAdapterLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterLoggerProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterLoggerProtocol.h"; sourceTree = "<group>"; };
+		9E091586E46A2384D9F818A4A19F3A98 /* ISServerResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISServerResponseParser.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISServerResponseParser.h"; sourceTree = "<group>"; };
+		9E66AFC41A317A58C6C7AFF8A4DE11C5 /* ISAdapterErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrors.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterErrors.h"; sourceTree = "<group>"; };
 		A111FBBFF22DB9AF80B1CC6C456ECDCE /* Pods-KidozIronSourceSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KidozIronSourceSample-Info.plist"; sourceTree = "<group>"; };
-		A377E772E8954F8F9B081B86DF39C02D /* ISAdapterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConfig.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterConfig.h"; sourceTree = "<group>"; };
-		A38627A4E0D52CADAAA644E9927F2DE7 /* ISAdapterConsentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConsentProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterConsentProtocol.h"; sourceTree = "<group>"; };
-		A4269D75511A1356C169366B8EF6E9F7 /* ISAdapterLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterLoggerProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterLoggerProtocol.h"; sourceTree = "<group>"; };
-		A5F7E9885CBF9B892E3FBD12B4D700CD /* ISBaseAdInteractionAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdInteractionAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdInteractionAdapter.h"; sourceTree = "<group>"; };
-		A8203CAC778D68764CCD6ED310798410 /* ISDemandOnlyRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyRewardedVideoDelegate.h"; sourceTree = "<group>"; };
-		A8591040731A5E661B470050DFBDA08B /* ISDemandOnlyBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyBannerDelegate.h"; sourceTree = "<group>"; };
-		A86F24B526F46C5997156619DBE96DFC /* ISImpressionDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionDataDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISImpressionDataDelegate.h"; sourceTree = "<group>"; };
-		ADC5E518E2B68A5A6BD7D95AFAD44F09 /* ISBannerAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerAdapterDelegate.h"; sourceTree = "<group>"; };
-		AECF851A63AB45A698DD7D60E51D6333 /* ISBaseAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdAdapter.h"; sourceTree = "<group>"; };
-		AF1A6DB7B30B45B99592E0B6C83D8B46 /* ISProductSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISProductSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISProductSettings.h"; sourceTree = "<group>"; };
-		AF5A402CC5DD21DA92A2431BAFCA7F78 /* ISMetaDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataConstants.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaDataConstants.h"; sourceTree = "<group>"; };
-		AFCD8792878811A94A584D13D1F917E6 /* ISAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdData.h"; sourceTree = "<group>"; };
+		A99C6444CCDEAE89C0FA642895BEF814 /* ISAdUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdUnit.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdUnit.h"; sourceTree = "<group>"; };
+		A9D5F2A609ECA69BFCD46B00827602F6 /* ISLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLog.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLog.h"; sourceTree = "<group>"; };
+		AAB838F5451905691B641B4C4C426E2A /* ISOfferwallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallDelegate.h"; sourceTree = "<group>"; };
+		AD09150B75B09772029C986A8D8477FE /* ISInterstitialAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterProtocol.h"; sourceTree = "<group>"; };
+		AD1EADE25E860AD47C224FAFAC7F453C /* ISImpressionDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionDataDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISImpressionDataDelegate.h"; sourceTree = "<group>"; };
+		ADBB2E95AEA411CA906D5E6202CA9065 /* ISEventsSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISEventsSettings.h"; sourceTree = "<group>"; };
+		AEB729E4BAC258FA9BD9AC604A310D5B /* ISMetaDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataConstants.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaDataConstants.h"; sourceTree = "<group>"; };
+		AF4ECE2D7686F15AC474A1ECD1550557 /* ISBaseAdInteractionAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdInteractionAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdInteractionAdapter.h"; sourceTree = "<group>"; };
+		AFE09647DBEBEF54F74C6EDC3C4C527F /* LevelPlayInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/LevelPlayInterstitialDelegate.h"; sourceTree = "<group>"; };
 		B069DB01B3AD60507EB860CC68D8F48E /* Pods-KidozIronSourceSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KidozIronSourceSample.release.xcconfig"; sourceTree = "<group>"; };
-		B15D0420A363A891BF82FA75FF8F53B3 /* ISAdapterMetaDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterMetaDataProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterMetaDataProtocol.h"; sourceTree = "<group>"; };
-		B1B33247B2BFB153F36482F77767EF84 /* ISDemandOnlyInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyInterstitialDelegate.h"; sourceTree = "<group>"; };
-		B58CF427A62B86D2A6EE4EF0270F5542 /* ISBaseAdInteractionAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdInteractionAdapter.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdInteractionAdapter.h"; sourceTree = "<group>"; };
-		B59DAB6932812A6B33DDA2096A6B65FB /* ISBaseAdAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseAdAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdAdapter.h"; sourceTree = "<group>"; };
-		B616A53F8DAAE559A9CFC1729C15D631 /* ISEventsReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsReporting.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISEventsReporting.h"; sourceTree = "<group>"; };
-		B649A77632146317E1AE1B341267CE33 /* ISConsentViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConsentViewDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISConsentViewDelegate.h"; sourceTree = "<group>"; };
-		B6B74E104F689626EE74985686EBA021 /* ISAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdData.h"; sourceTree = "<group>"; };
-		B7010265200B4C60D8B8132F744F883A /* ISSupersonicAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSupersonicAdsConfiguration.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSupersonicAdsConfiguration.h"; sourceTree = "<group>"; };
-		B85D58B5D18C25D16C1CD1BE0021F077 /* ISMetaDataUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataUtils.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaDataUtils.h"; sourceTree = "<group>"; };
-		B9E47201476123C17514DA2E2E9EF44C /* ISLoggersSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggersSettings.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoggersSettings.h"; sourceTree = "<group>"; };
-		BA2115327844069C97A068C4D29F7DD4 /* ISOfferwallAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterProtocol.h"; sourceTree = "<group>"; };
-		BBE8649244747FBBCE56CBAAC6B83F73 /* ISSegmentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegmentDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSegmentDelegate.h"; sourceTree = "<group>"; };
-		BC70E06A3482724A346720E2920DBB37 /* ISBannerSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerSize.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerSize.h"; sourceTree = "<group>"; };
-		BE0769FC664AFE988EB03CD415AE13D9 /* ISAdapterErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrors.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterErrors.h"; sourceTree = "<group>"; };
-		BFB743D045D0D98E8B449CC968981C70 /* ISMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaData.h"; sourceTree = "<group>"; };
-		C0638FD12A16DE6C72A5BF519207913C /* ISBiddingDataAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBiddingDataAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBiddingDataAdapterProtocol.h"; sourceTree = "<group>"; };
-		C0E0E423F1F6F5F42C31886B77064C40 /* ISBannerAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerAdapterProtocol.h"; sourceTree = "<group>"; };
-		C0E6807D9271B6A28365124823F8CDC2 /* IronSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IronSource.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/IronSource.h"; sourceTree = "<group>"; };
+		B3A63EEA7700C640C95E7FF3B9BC0F84 /* ISBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerDelegate.h"; sourceTree = "<group>"; };
+		B48451EDC12707DA172B2DE0AD1FB46F /* ISInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialDelegate.h"; sourceTree = "<group>"; };
+		B5B225143D97D48DAFB5DBEFC0695F36 /* ISRewardedVideoAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterProtocol.h"; sourceTree = "<group>"; };
+		B7FCC21E1FE301A6107398CD7D52FDB6 /* ISDemandOnlyBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyBannerDelegate.h"; sourceTree = "<group>"; };
+		B81E97DC54FE59FDF1CC023DC7991341 /* IronSourceSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "IronSourceSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		B8CBA36858101A84AFF8E5E7D62680E9 /* ISEventsSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISEventsSettings.h"; sourceTree = "<group>"; };
+		B9252D0D6F303239D07734053D3A9927 /* ISBaseInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseInterstitial.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseInterstitial.h"; sourceTree = "<group>"; };
+		B983CF3E7779F3B6C261EADE406E427D /* ISAdapterMetaDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterMetaDataProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterMetaDataProtocol.h"; sourceTree = "<group>"; };
+		BC735A292E024B2518BA72D7D3D09CC2 /* IronSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IronSource.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/IronSource.h"; sourceTree = "<group>"; };
+		BCDCCA668899AF060A025A55660D5B2D /* ISGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISGender.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISGender.h"; sourceTree = "<group>"; };
+		C0783E54340DE968528BF8F3B05D724B /* ISImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionData.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISImpressionData.h"; sourceTree = "<group>"; };
 		C20EFC36E33A3E32BEBB0B6E26411140 /* Pods-KidozIronSourceSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KidozIronSourceSample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C86C281A84FBAAA0DFA742D69D8281A9 /* IronSourceSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "IronSourceSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		C8819AC0BF8EBF8DC4881EAA193C02EE /* ISLoggersSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggersSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoggersSettings.h"; sourceTree = "<group>"; };
-		CDE6B861E4218F3C3FF74C4F3D29455F /* ISNetworkInitCallbackProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitCallbackProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISNetworkInitCallbackProtocol.h"; sourceTree = "<group>"; };
-		CF329D0E0D328546D7640B6509DA10E0 /* ISAdapterAdInteractionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdInteractionDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdInteractionDelegate.h"; sourceTree = "<group>"; };
-		CF822E63BEF3EDF34B179251C7A7D88E /* ISRewardedVideoAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterProtocol.h"; sourceTree = "<group>"; };
-		D7948F823C486C27F9F2F3E54BCE2E4C /* ISGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISGender.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISGender.h"; sourceTree = "<group>"; };
+		C2C93CB4FE3CACCB795110F6BC58E425 /* ISOfferwallAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterProtocol.h"; sourceTree = "<group>"; };
+		C3257CDFEFC9E0E331B878448F75A205 /* ISBaseRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseRewardedVideo.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseRewardedVideo.h"; sourceTree = "<group>"; };
+		C32EC90BF8B8C58F2AB8911A4067F2A1 /* ISEventsReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEventsReporting.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISEventsReporting.h"; sourceTree = "<group>"; };
+		C49923420149C075C414A7ECF4EF54AF /* ISSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegment.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISSegment.h"; sourceTree = "<group>"; };
+		C50414087A41F5502AC2568D88322CEC /* ISBaseAdapter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISBaseAdapter+Internal.h"; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseAdapter+Internal.h"; sourceTree = "<group>"; };
+		C68217FDA7851AED583BDE4D93477953 /* ISAdapterAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdDelegate.h"; sourceTree = "<group>"; };
+		C6D319E1222CE6777C4945195F75DC01 /* ISConsentViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConsentViewDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISConsentViewDelegate.h"; sourceTree = "<group>"; };
+		C8B6783E24E99589CB8F232A96F8F526 /* ISOfferwallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallDelegate.h"; sourceTree = "<group>"; };
+		C8F6987CE7F696381275425DF084ED9B /* ISNetworkInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISNetworkInitializationDelegate.h"; sourceTree = "<group>"; };
+		CA7570B3B1ABDDEC3E25F4B65E2A344B /* ISDemandOnlyRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyRewardedVideoDelegate.h"; sourceTree = "<group>"; };
+		CAED1BC5B2083E4FB46108A1CD4221B0 /* ISLogDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLogDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLogDelegate.h"; sourceTree = "<group>"; };
+		CB5AAC27C66D19F372C2D2A473FE9B02 /* ISBannerAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerAdapterProtocol.h"; sourceTree = "<group>"; };
+		CD27296BF0576309FF200E56CFA45D68 /* ISMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISMetaData.h"; sourceTree = "<group>"; };
+		CD30C8D9466C957E2C52F7FD643FA2BD /* LevelPlayBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/LevelPlayBannerDelegate.h"; sourceTree = "<group>"; };
+		CD4F89F9FBAFF1251AA45683F1F9C218 /* LevelPlayRewardedVideoBaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoBaseDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoBaseDelegate.h"; sourceTree = "<group>"; };
+		CE5978F23CE0484EA45B9ACD78996316 /* ISBiddingDataAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBiddingDataAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBiddingDataAdapterProtocol.h"; sourceTree = "<group>"; };
+		CE876F45436465F0344206570B6C4DCD /* ISInterstitialAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterProtocol.h"; sourceTree = "<group>"; };
+		CF662275CEE6E8F88E806CA4330985F8 /* ISImpressionDataDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISImpressionDataDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISImpressionDataDelegate.h"; sourceTree = "<group>"; };
+		CFDB330D89BB9ECD4A39BCD1377E9EA5 /* ISLoadWhileShowSupportState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoadWhileShowSupportState.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoadWhileShowSupportState.h"; sourceTree = "<group>"; };
+		D0289C28F568119C0508DA7E9BD084F7 /* LevelPlayRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
+		D0BE3B3EEC65E7E6F149667BABE84566 /* ISBannerAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerAdapterDelegate.h"; sourceTree = "<group>"; };
+		D1C86F2D0B6C729AD246C9CC235E9BE6 /* ISNetworkInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISNetworkInitializationDelegate.h"; sourceTree = "<group>"; };
+		D1E764EF01CB0C9B4E73D8F2C183DFDF /* IronSource.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = IronSource.xcframework; path = IronSource/IronSource.xcframework; sourceTree = "<group>"; };
+		D468777959C3E4DE05D59E015E54CC8A /* ISAdapterConsentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConsentProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterConsentProtocol.h"; sourceTree = "<group>"; };
+		D58C94DEE963FBABD5956CA5B0B31B20 /* ISAdData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdData.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdData.h"; sourceTree = "<group>"; };
+		D621C56A437071678AF6A1AC1C0D9BCB /* ISAdapterAdInteractionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdInteractionDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdInteractionDelegate.h"; sourceTree = "<group>"; };
+		D6664EA3918E5C7C8885779A74EB062B /* ISLoggersSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoggersSettings.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLoggersSettings.h"; sourceTree = "<group>"; };
+		D913EB8A93ED1BF832A035A64A397131 /* ISAdapterConsentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConsentProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterConsentProtocol.h"; sourceTree = "<group>"; };
 		D94A5A5C3BF88284060557EC8EBA3EB1 /* Pods-KidozIronSourceSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KidozIronSourceSample.modulemap"; sourceTree = "<group>"; };
-		DE5AAF3E3FABBCC8A8F59C2FB0F90010 /* ISBaseNetworkAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseNetworkAdapter.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseNetworkAdapter.h"; sourceTree = "<group>"; };
-		DF53E7F2447A6A2E8910A88D004C62DD /* ISDemandOnlyRewardedVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyRewardedVideoDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISDemandOnlyRewardedVideoDelegate.h"; sourceTree = "<group>"; };
-		E0B4EC80DAA89722589DC0AAE21AF575 /* ISConsentViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConsentViewDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISConsentViewDelegate.h"; sourceTree = "<group>"; };
-		E5869963F0D0A097DF16A9549F6C8669 /* ISAdapterErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrors.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterErrors.h"; sourceTree = "<group>"; };
-		E5BE20A9252D96232FDBD007EBA06DE8 /* ISAdapterDispatcherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDispatcherProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterDispatcherProtocol.h"; sourceTree = "<group>"; };
-		E5E657C695777283B375B7DA46799560 /* ISOfferwallAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterDelegate.h"; sourceTree = "<group>"; };
-		E98BB480377ECD957071CFA1DD5AFCD6 /* ISAdapterDispatcherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDispatcherProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterDispatcherProtocol.h"; sourceTree = "<group>"; };
-		EBC5F8E07A6CC5F16753D847825DBD43 /* ISDemandOnlyBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyBannerDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDemandOnlyBannerDelegate.h"; sourceTree = "<group>"; };
-		EEBBF096C4EC0A60A644BB5C031A0997 /* ISConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISConfigurations.h"; sourceTree = "<group>"; };
-		F00565B2196DFCFB84A4C0D49A16AC41 /* ISRewardedVideoAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISRewardedVideoAdapterProtocol.h"; sourceTree = "<group>"; };
-		F515FD1E448CFC3F0E8C825F4D7D8F29 /* ISAdapterDebugProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterDebugProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterDebugProtocol.h"; sourceTree = "<group>"; };
-		F56E19A6955DF3B23D9D89F28C4F5EE0 /* ISNetworkInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISNetworkInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISNetworkInitializationDelegate.h"; sourceTree = "<group>"; };
-		F5EFF1EDD7C27786365CEC3BCFFFC6D7 /* ISServerResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISServerResponseParser.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISServerResponseParser.h"; sourceTree = "<group>"; };
-		F6FE85E03225C7F6CA853F145262E99D /* ISServerResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISServerResponseParser.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISServerResponseParser.h"; sourceTree = "<group>"; };
-		F850AB5449626CE4015DF240DA179B0E /* ConcurrentMutableSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableSet.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableSet.h"; sourceTree = "<group>"; };
-		F8B48DC4E7A121A62EDE5CEA1EC64036 /* ISOfferwallAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterDelegate.h"; sourceTree = "<group>"; };
-		F9DA12DB0A858CB67914E023542D3D3A /* ConcurrentMutableSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableSet.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableSet.h"; sourceTree = "<group>"; };
-		FC3DFCFB0498C2D48C4E6D39BC171F95 /* ISBaseAdapter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISBaseAdapter+Internal.h"; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBaseAdapter+Internal.h"; sourceTree = "<group>"; };
-		FE3C001BA7A658241D6886B3DFE4DDAB /* ISBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerView.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBannerView.h"; sourceTree = "<group>"; };
-		FE505DCDED773DA510B001ECE47008EE /* ISMetaDataConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataConstants.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaDataConstants.h"; sourceTree = "<group>"; };
-		FE8A1432D525AE2A644F12F0FBF215C2 /* ISLoadWhileShowSupportState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoadWhileShowSupportState.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoadWhileShowSupportState.h"; sourceTree = "<group>"; };
-		FE958ABB263531A05C3D4D4960F2AEF9 /* ISIntegrationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISIntegrationHelper.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISIntegrationHelper.h"; sourceTree = "<group>"; };
-		FF0E2A4EDD3441CF9B0375620F5540A5 /* ISAdapterAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdDelegate.h"; sourceTree = "<group>"; };
+		D9599E7BDAFE66F731E7F7D994E2B183 /* ConcurrentMutableSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableSet.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableSet.h"; sourceTree = "<group>"; };
+		DA816A0C14174E6D34D48BBFA859E8D0 /* ISLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLog.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLog.h"; sourceTree = "<group>"; };
+		DC61875779F390E92D25F3E9489853B3 /* ISLoadWhileShowSupportState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLoadWhileShowSupportState.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISLoadWhileShowSupportState.h"; sourceTree = "<group>"; };
+		DD802418D221FD311165459B5CCC2E8D /* ISAdapterErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterErrors.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterErrors.h"; sourceTree = "<group>"; };
+		DDD9C5C7A6FAB831211A0836EF01AC9B /* LevelPlayInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayInterstitialDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/LevelPlayInterstitialDelegate.h"; sourceTree = "<group>"; };
+		DE14DB99A0E2446318EE7B3F56761320 /* ISAdapterAdRewardedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdRewardedDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterAdRewardedDelegate.h"; sourceTree = "<group>"; };
+		E0D6E69391875740FA7EFB4E808F763F /* ISServerResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISServerResponseParser.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISServerResponseParser.h"; sourceTree = "<group>"; };
+		E11FE897C8EA9FD409645FA9DF330D66 /* IronSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IronSource.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/IronSource.h"; sourceTree = "<group>"; };
+		E1AAB9DE17C57EF9ED72B11B21046F25 /* LevelPlayRewardedVideoBaseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LevelPlayRewardedVideoBaseDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/LevelPlayRewardedVideoBaseDelegate.h"; sourceTree = "<group>"; };
+		E52624964287E605829BF989D7D595E6 /* ISInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInitializationDelegate.h"; sourceTree = "<group>"; };
+		E721D8C1E746F826335429FD941FD911 /* ISOfferwallAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISOfferwallAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISOfferwallAdapterProtocol.h"; sourceTree = "<group>"; };
+		EAC0DE6C85FE1558FB2C585811F54147 /* ISDataKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISDataKeys.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISDataKeys.h"; sourceTree = "<group>"; };
+		ED0AC0BCCF700EEC206F14BBCA1E8FA1 /* ISInterstitialAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterDelegate.h"; sourceTree = "<group>"; };
+		EDCD919A4C68DB802A9FD37F8AD5A0DC /* ISBaseRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBaseRewardedVideo.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBaseRewardedVideo.h"; sourceTree = "<group>"; };
+		EDF4CE3AEC4CF182F7FA3F50DF3ED5EC /* ISAdapterMetaDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterMetaDataProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterMetaDataProtocol.h"; sourceTree = "<group>"; };
+		EE07970729AB7FCD0E3355A48A7ED52B /* ISAdapterAdRewardedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterAdRewardedDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISAdapterAdRewardedDelegate.h"; sourceTree = "<group>"; };
+		EF6C729762FF7D5789CE3238B0474BD6 /* ISPlacementInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISPlacementInfo.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISPlacementInfo.h"; sourceTree = "<group>"; };
+		EFB525C2746C35C4125530B2BD6AF51E /* ISInitializationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInitializationDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInitializationDelegate.h"; sourceTree = "<group>"; };
+		F05F0758311310EA0942C84175399CF7 /* ISAdapterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterConfig.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterConfig.h"; sourceTree = "<group>"; };
+		F1347345935468133C67067875A75DB1 /* ISSegmentDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSegmentDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSegmentDelegate.h"; sourceTree = "<group>"; };
+		F45980AB5BFE198D1293DAF0E00D40C9 /* ISGender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISGender.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISGender.h"; sourceTree = "<group>"; };
+		F5251AD916F2A58667C504D7474712B3 /* ConcurrentMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConcurrentMutableDictionary.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/Environment/ConcurrentMutableDictionary.h"; sourceTree = "<group>"; };
+		F60900DF872F8D242467BD0C12A861E7 /* ISMetaDataUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISMetaDataUtils.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISMetaDataUtils.h"; sourceTree = "<group>"; };
+		F6BBB8C5357B194071DA5BA21F5E044A /* ISLogDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISLogDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISLogDelegate.h"; sourceTree = "<group>"; };
+		F7590BE4B85910D0AB14A218D1A8483E /* ISInterstitialAdapterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISInterstitialAdapterDelegate.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISInterstitialAdapterDelegate.h"; sourceTree = "<group>"; };
+		F7ACE432612F7EB7EF0B50F36E49B3AE /* ISRewardedVideoManualDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoManualDelegate.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISRewardedVideoManualDelegate.h"; sourceTree = "<group>"; };
+		F851F9A1BA1C0FEB05A1A80357AC6069 /* ISBannerSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBannerSize.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISBannerSize.h"; sourceTree = "<group>"; };
+		F8A75C8BD6F614E3C52EB5DF0E2B452B /* ISBiddingDataAdapterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISBiddingDataAdapterProtocol.h; path = "IronSource/IronSource.xcframework/ios-i386_x86_64-simulator/IronSource.framework/Versions/A/Headers/ISBiddingDataAdapterProtocol.h"; sourceTree = "<group>"; };
+		FDB26BD27EFEAD5220A81ABCD365216F /* ISAdapterSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISAdapterSettingsProtocol.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISAdapterSettingsProtocol.h"; sourceTree = "<group>"; };
+		FEF11BCBC9791E63E11AE4D5767E6CDB /* ISSupersonicAdsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSupersonicAdsConfiguration.h; path = "IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/ISSupersonicAdsConfiguration.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,15 +219,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04055E5ECE956461052F2D24C4EA28B0 /* Support Files */ = {
+		06C4E477707A6793FD2CDDF08DAFBC58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C86C281A84FBAAA0DFA742D69D8281A9 /* IronSourceSDK-xcframeworks.sh */,
-				5903AC377D1A304EC59E601B3BBB7C06 /* IronSourceSDK.debug.xcconfig */,
-				870D08F66C09169C665DB73063B48979 /* IronSourceSDK.release.xcconfig */,
+				D1E764EF01CB0C9B4E73D8F2C183DFDF /* IronSource.xcframework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/IronSourceSDK";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1971D2EC535D6DE2F7634B805FB70C3E /* Products */ = {
@@ -242,6 +251,14 @@
 			path = "Target Support Files/Pods-KidozIronSourceSample";
 			sourceTree = "<group>";
 		};
+		27B228BDD89654260D8281FA6AA8292F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29B3516C07B9C839377B41926201F23 /* IronSourceSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,172 +275,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7A8DB346F146EFB332AA2EA97BF30F06 /* Frameworks */ = {
+		7FE32E720D5A54F11137C46FFEEAC7CB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				76D5E2A19AF1151BBB0F7005AF8067A0 /* IronSource.xcframework */,
+				B81E97DC54FE59FDF1CC023DC7991341 /* IronSourceSDK-xcframeworks.sh */,
+				5D98D61B4467F45BB8B2B73A5B16041F /* IronSourceSDK.debug.xcconfig */,
+				4F21C7B911DBEDB567736C6C6FA7C40F /* IronSourceSDK.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7F566537E2E4F94DD453B31E49D7326D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				95AC6DBA90697B2ACB7D352DFE4BB3C6 /* IronSourceSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		95AC6DBA90697B2ACB7D352DFE4BB3C6 /* IronSourceSDK */ = {
-			isa = PBXGroup;
-			children = (
-				19C5C9A780CDE861F4D0D82289B7D253 /* ConcurrentMutableDictionary.h */,
-				1390D958320BC7EDBE2463D8ED1E7A99 /* ConcurrentMutableDictionary.h */,
-				F850AB5449626CE4015DF240DA179B0E /* ConcurrentMutableSet.h */,
-				F9DA12DB0A858CB67914E023542D3D3A /* ConcurrentMutableSet.h */,
-				C0E6807D9271B6A28365124823F8CDC2 /* IronSource.h */,
-				6F5B79AEDFCB19ABBA84A1D4CE7D5D10 /* IronSource.h */,
-				294373880CBD7F83E6C926504BD2D805 /* ISAdapterAdDelegate.h */,
-				FF0E2A4EDD3441CF9B0375620F5540A5 /* ISAdapterAdDelegate.h */,
-				8E34B3697E12010555A3F4933EB899DE /* ISAdapterAdInteractionDelegate.h */,
-				CF329D0E0D328546D7640B6509DA10E0 /* ISAdapterAdInteractionDelegate.h */,
-				73786A0D249732FCA596B810DDE2785C /* ISAdapterAdRewardedDelegate.h */,
-				68D79ED2F73DEB980F944B8B926ED181 /* ISAdapterAdRewardedDelegate.h */,
-				2179C6F9E836002C47EA131B966BC48F /* ISAdapterBaseProtocol.h */,
-				7C3C0CA21C87A340412C01AFF723878E /* ISAdapterBaseProtocol.h */,
-				A377E772E8954F8F9B081B86DF39C02D /* ISAdapterConfig.h */,
-				84C79A82F84D771758812E6AA07F2677 /* ISAdapterConfig.h */,
-				3FAA0C2604002129CF8E752770419763 /* ISAdapterConsentProtocol.h */,
-				A38627A4E0D52CADAAA644E9927F2DE7 /* ISAdapterConsentProtocol.h */,
-				F515FD1E448CFC3F0E8C825F4D7D8F29 /* ISAdapterDebugProtocol.h */,
-				8D841AFD86FFABB0E19EDBE64B71B6B4 /* ISAdapterDebugProtocol.h */,
-				E5BE20A9252D96232FDBD007EBA06DE8 /* ISAdapterDispatcherProtocol.h */,
-				E98BB480377ECD957071CFA1DD5AFCD6 /* ISAdapterDispatcherProtocol.h */,
-				BE0769FC664AFE988EB03CD415AE13D9 /* ISAdapterErrors.h */,
-				E5869963F0D0A097DF16A9549F6C8669 /* ISAdapterErrors.h */,
-				5044CDD6CD94A8E9BF03C4F358997786 /* ISAdapterErrorType.h */,
-				2165B6656B504E2503C113FF024E39BB /* ISAdapterErrorType.h */,
-				9E970E8B500A8EA67585594407034CA0 /* ISAdapterLoggerProtocol.h */,
-				A4269D75511A1356C169366B8EF6E9F7 /* ISAdapterLoggerProtocol.h */,
-				44D480986064EB2E8412A249DD6CFD06 /* ISAdapterMetaDataProtocol.h */,
-				B15D0420A363A891BF82FA75FF8F53B3 /* ISAdapterMetaDataProtocol.h */,
-				2FB60F38BC23496146E7CA594902085B /* ISAdapterSettingsProtocol.h */,
-				74A371C83CCDEEAAFB1EA9AEB533E3AB /* ISAdapterSettingsProtocol.h */,
-				AFCD8792878811A94A584D13D1F917E6 /* ISAdData.h */,
-				B6B74E104F689626EE74985686EBA021 /* ISAdData.h */,
-				0E3A3825F8F2F9AAA324735B6618F463 /* ISAdUnit.h */,
-				9653D58D583859AA7FDD1F0E20DF0E71 /* ISAdUnit.h */,
-				1E04A268B506698ADCF853BE189A5A62 /* ISBannerAdapterDelegate.h */,
-				ADC5E518E2B68A5A6BD7D95AFAD44F09 /* ISBannerAdapterDelegate.h */,
-				11F52FE9CDB0DA7DE5B0D9F24C40D33E /* ISBannerAdapterProtocol.h */,
-				C0E0E423F1F6F5F42C31886B77064C40 /* ISBannerAdapterProtocol.h */,
-				7F5EE1CCF8CCB1D983AA5BAEE6DA9EAC /* ISBannerDelegate.h */,
-				58A35880ED2D44BC1A0011E2796349C3 /* ISBannerDelegate.h */,
-				BC70E06A3482724A346720E2920DBB37 /* ISBannerSize.h */,
-				17B2334FA2AC9F179C4D40E666A0F0A1 /* ISBannerSize.h */,
-				6A9EC2445EA5E85985706B74E3872D6F /* ISBannerView.h */,
-				FE3C001BA7A658241D6886B3DFE4DDAB /* ISBannerView.h */,
-				AECF851A63AB45A698DD7D60E51D6333 /* ISBaseAdAdapter.h */,
-				B59DAB6932812A6B33DDA2096A6B65FB /* ISBaseAdAdapter.h */,
-				10AE642A6A0C47FC0AE4312B7D265C9A /* ISBaseAdapter.h */,
-				0AB1DA6709025461E41044F748207E74 /* ISBaseAdapter.h */,
-				FC3DFCFB0498C2D48C4E6D39BC171F95 /* ISBaseAdapter+Internal.h */,
-				4E70B11B96166659E310F54CECB3FFE7 /* ISBaseAdapter+Internal.h */,
-				B58CF427A62B86D2A6EE4EF0270F5542 /* ISBaseAdInteractionAdapter.h */,
-				A5F7E9885CBF9B892E3FBD12B4D700CD /* ISBaseAdInteractionAdapter.h */,
-				8A42F70273290CC8F49E942F5935038F /* ISBaseInterstitial.h */,
-				00EBA1A3713EA12776501705B5BFEED3 /* ISBaseInterstitial.h */,
-				0152A1C472D8B735099A73EC9A0B2C98 /* ISBaseNetworkAdapter.h */,
-				DE5AAF3E3FABBCC8A8F59C2FB0F90010 /* ISBaseNetworkAdapter.h */,
-				12365DD2451BF0453B593E2D1F83DF1F /* ISBaseRewardedVideo.h */,
-				1E80A6A31FB8A975C525973D5A706F4B /* ISBaseRewardedVideo.h */,
-				178D7F08421041CAED437DB810481717 /* ISBiddingDataAdapterProtocol.h */,
-				C0638FD12A16DE6C72A5BF519207913C /* ISBiddingDataAdapterProtocol.h */,
-				EEBBF096C4EC0A60A644BB5C031A0997 /* ISConfigurations.h */,
-				67597315A4184C8A10187C8712013642 /* ISConfigurations.h */,
-				B649A77632146317E1AE1B341267CE33 /* ISConsentViewDelegate.h */,
-				E0B4EC80DAA89722589DC0AAE21AF575 /* ISConsentViewDelegate.h */,
-				40D14732396455B2BEFD3D3433B54855 /* ISDataKeys.h */,
-				8D8638A6613E8CF947FB7078DD6DA507 /* ISDataKeys.h */,
-				A8591040731A5E661B470050DFBDA08B /* ISDemandOnlyBannerDelegate.h */,
-				EBC5F8E07A6CC5F16753D847825DBD43 /* ISDemandOnlyBannerDelegate.h */,
-				B1B33247B2BFB153F36482F77767EF84 /* ISDemandOnlyInterstitialDelegate.h */,
-				01D1ACBDA137B4FA98C8A0789629D0E3 /* ISDemandOnlyInterstitialDelegate.h */,
-				DF53E7F2447A6A2E8910A88D004C62DD /* ISDemandOnlyRewardedVideoDelegate.h */,
-				A8203CAC778D68764CCD6ED310798410 /* ISDemandOnlyRewardedVideoDelegate.h */,
-				6DDD539F531FD7E1A7D6295F168EDECF /* ISError.h */,
-				92D57ADBDD8C186F8EDBA938C46848DB /* ISError.h */,
-				4EEB561F58E89F361B6552FD04889EBB /* ISEventsReporting.h */,
-				B616A53F8DAAE559A9CFC1729C15D631 /* ISEventsReporting.h */,
-				9347F5DECCA171C03882925068264F5C /* ISEventsSettings.h */,
-				06964F762979A3B5AC186B5E5D7E2446 /* ISEventsSettings.h */,
-				61C93096D84EC7D9A0DBF697520428A2 /* ISGender.h */,
-				D7948F823C486C27F9F2F3E54BCE2E4C /* ISGender.h */,
-				0F061F9C8B0B3AB90B34A3D4077AD68C /* ISImpressionData.h */,
-				69F55869929C3D8D2D3CCF6E996C8124 /* ISImpressionData.h */,
-				A86F24B526F46C5997156619DBE96DFC /* ISImpressionDataDelegate.h */,
-				59A188358B6F5B9B2B56000397AB607C /* ISImpressionDataDelegate.h */,
-				366EA806A185145E0DB06AF6AA98C414 /* ISInitializationDelegate.h */,
-				0A7300974A259EC8B281B702BCF0B7BD /* ISInitializationDelegate.h */,
-				41FA7AAEFCF4E4210BB3092A5CA10DF0 /* ISIntegrationHelper.h */,
-				FE958ABB263531A05C3D4D4960F2AEF9 /* ISIntegrationHelper.h */,
-				4307AE7CC69F8E7B9AAEAC878DC1F11F /* ISInterstitialAdapterDelegate.h */,
-				0F53C64A98FCFED5AFB6671D8000D756 /* ISInterstitialAdapterDelegate.h */,
-				851E82D7152D593CBAF26736931D3990 /* ISInterstitialAdapterProtocol.h */,
-				6F123549F4464AF65B82C95A3029B17C /* ISInterstitialAdapterProtocol.h */,
-				40192E0CDB89C5CED014AC043CFF01B4 /* ISInterstitialDelegate.h */,
-				9B78029EBDBD0668A4AEBEDD795D8218 /* ISInterstitialDelegate.h */,
-				FE8A1432D525AE2A644F12F0FBF215C2 /* ISLoadWhileShowSupportState.h */,
-				6BA77F9F26B0DECBBFDB3B9DFA986EAF /* ISLoadWhileShowSupportState.h */,
-				5715A06192B1B2850468A2782590EA75 /* ISLog.h */,
-				956B421D5873E4D89F85BC295BCA9BFD /* ISLog.h */,
-				70F4CFAB012A4E32A96CA9086942434B /* ISLogDelegate.h */,
-				45B601C0471D5D5CB7692588DBF8BFDB /* ISLogDelegate.h */,
-				74BB726563FEBE4F8295334A74A5A2C8 /* ISLoggerManager.h */,
-				3BBD7692014794E9061BAA7C75F79E2A /* ISLoggerManager.h */,
-				B9E47201476123C17514DA2E2E9EF44C /* ISLoggersSettings.h */,
-				C8819AC0BF8EBF8DC4881EAA193C02EE /* ISLoggersSettings.h */,
-				2359E1EFE7031833CC08A5C9F1CAD3BF /* ISMetaData.h */,
-				BFB743D045D0D98E8B449CC968981C70 /* ISMetaData.h */,
-				AF5A402CC5DD21DA92A2431BAFCA7F78 /* ISMetaDataConstants.h */,
-				FE505DCDED773DA510B001ECE47008EE /* ISMetaDataConstants.h */,
-				B85D58B5D18C25D16C1CD1BE0021F077 /* ISMetaDataUtils.h */,
-				0EF4ED96E1CD925703D5229F06C9246D /* ISMetaDataUtils.h */,
-				CDE6B861E4218F3C3FF74C4F3D29455F /* ISNetworkInitCallbackProtocol.h */,
-				9497B80470FF0048A8D5655C34C17E74 /* ISNetworkInitCallbackProtocol.h */,
-				F56E19A6955DF3B23D9D89F28C4F5EE0 /* ISNetworkInitializationDelegate.h */,
-				09129E66C17758B2236E51AAB26F06EF /* ISNetworkInitializationDelegate.h */,
-				F8B48DC4E7A121A62EDE5CEA1EC64036 /* ISOfferwallAdapterDelegate.h */,
-				E5E657C695777283B375B7DA46799560 /* ISOfferwallAdapterDelegate.h */,
-				BA2115327844069C97A068C4D29F7DD4 /* ISOfferwallAdapterProtocol.h */,
-				259ABD4ED2141B01F197A57CA1FAFD9F /* ISOfferwallAdapterProtocol.h */,
-				12C9D3C9B0F4E9D3C0EFC9C46F64F27F /* ISOfferwallDelegate.h */,
-				8030B1F8F07BFAA88B28DC0B305BEE0C /* ISOfferwallDelegate.h */,
-				6522FE2F7CC2FBD69BBEC435B62A4DB6 /* ISPlacementInfo.h */,
-				484833A763CE65CD2720866536C4B582 /* ISPlacementInfo.h */,
-				717B5E1A44E3CA0AC0E36BA18694FBA5 /* ISProductSettings.h */,
-				AF1A6DB7B30B45B99592E0B6C83D8B46 /* ISProductSettings.h */,
-				3AAEA00E814D7DC7078A87878122BB75 /* ISRewardedVideoAdapterDelegate.h */,
-				44F5F72B2DF50F2C49D12E5EC4A25CB8 /* ISRewardedVideoAdapterDelegate.h */,
-				F00565B2196DFCFB84A4C0D49A16AC41 /* ISRewardedVideoAdapterProtocol.h */,
-				CF822E63BEF3EDF34B179251C7A7D88E /* ISRewardedVideoAdapterProtocol.h */,
-				46F0FF61756F687B2D80D3D5ACA11D9C /* ISRewardedVideoDelegate.h */,
-				9AB10EAFE65AE16C71B0AEE485617BAF /* ISRewardedVideoDelegate.h */,
-				1DE39433C9D666366032DA681550EFD3 /* ISRewardedVideoManualDelegate.h */,
-				0FC5D69F448157627D8EF29EF99140DC /* ISRewardedVideoManualDelegate.h */,
-				38636CA63F4A5D993F85CA1862680207 /* ISSegment.h */,
-				2270E636BCD2E8F3AD1AE30EAB2407E0 /* ISSegment.h */,
-				BBE8649244747FBBCE56CBAAC6B83F73 /* ISSegmentDelegate.h */,
-				5E4FB22EB3359142EE2DEBAAFDAA5812 /* ISSegmentDelegate.h */,
-				F6FE85E03225C7F6CA853F145262E99D /* ISServerResponseParser.h */,
-				F5EFF1EDD7C27786365CEC3BCFFFC6D7 /* ISServerResponseParser.h */,
-				8DB8DC23E2BF78C17A57A5606257E12B /* ISSupersonicAdsConfiguration.h */,
-				B7010265200B4C60D8B8132F744F883A /* ISSupersonicAdsConfiguration.h */,
-				7A8DB346F146EFB332AA2EA97BF30F06 /* Frameworks */,
-				04055E5ECE956461052F2D24C4EA28B0 /* Support Files */,
-			);
-			name = IronSourceSDK;
-			path = IronSourceSDK;
+			name = "Support Files";
+			path = "../Target Support Files/IronSourceSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -431,7 +291,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7F566537E2E4F94DD453B31E49D7326D /* Pods */,
+				27B228BDD89654260D8281FA6AA8292F /* Pods */,
 				1971D2EC535D6DE2F7634B805FB70C3E /* Products */,
 				76ABBAC241BC659E55BE18C6D8180E49 /* Targets Support Files */,
 			);
@@ -443,6 +303,170 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29B3516C07B9C839377B41926201F23 /* IronSourceSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3E8FD136374E4ECB0B045B619EB69BCA /* ConcurrentMutableDictionary.h */,
+				F5251AD916F2A58667C504D7474712B3 /* ConcurrentMutableDictionary.h */,
+				D9599E7BDAFE66F731E7F7D994E2B183 /* ConcurrentMutableSet.h */,
+				45B1B3940C7D2D33ED41253E8CFFAD38 /* ConcurrentMutableSet.h */,
+				E11FE897C8EA9FD409645FA9DF330D66 /* IronSource.h */,
+				BC735A292E024B2518BA72D7D3D09CC2 /* IronSource.h */,
+				C68217FDA7851AED583BDE4D93477953 /* ISAdapterAdDelegate.h */,
+				5373FC72BF6A6F34D54949AC3C4F6CE3 /* ISAdapterAdDelegate.h */,
+				29CD22CD651183BF7DBB7C7D6AE183EE /* ISAdapterAdInteractionDelegate.h */,
+				D621C56A437071678AF6A1AC1C0D9BCB /* ISAdapterAdInteractionDelegate.h */,
+				DE14DB99A0E2446318EE7B3F56761320 /* ISAdapterAdRewardedDelegate.h */,
+				EE07970729AB7FCD0E3355A48A7ED52B /* ISAdapterAdRewardedDelegate.h */,
+				4E89D056A515906ECC85425D15C5F2E1 /* ISAdapterBaseProtocol.h */,
+				659680A2113ACF2ADB3B5414073F9502 /* ISAdapterBaseProtocol.h */,
+				F05F0758311310EA0942C84175399CF7 /* ISAdapterConfig.h */,
+				8C800FCD750E47973B999FAC65838A06 /* ISAdapterConfig.h */,
+				D468777959C3E4DE05D59E015E54CC8A /* ISAdapterConsentProtocol.h */,
+				D913EB8A93ED1BF832A035A64A397131 /* ISAdapterConsentProtocol.h */,
+				4B13A7835932E85F9A345D17707E7136 /* ISAdapterDebugProtocol.h */,
+				1EDBD102224BF14CF92E69CFABE4A0A5 /* ISAdapterDebugProtocol.h */,
+				17238BFD782C4A94F9D6B2589CEB5A61 /* ISAdapterDispatcherProtocol.h */,
+				37E2448EF2A292BCA58685FDE6F2E7B2 /* ISAdapterDispatcherProtocol.h */,
+				9E66AFC41A317A58C6C7AFF8A4DE11C5 /* ISAdapterErrors.h */,
+				DD802418D221FD311165459B5CCC2E8D /* ISAdapterErrors.h */,
+				1EA97E4AF4668CE870AC120F1E23FFD5 /* ISAdapterErrorType.h */,
+				21D6F59F4BFD87123015660DCCACAD64 /* ISAdapterErrorType.h */,
+				2A8055FC0B652F955610FA290D618EE0 /* ISAdapterLoggerProtocol.h */,
+				0DEB5F38C79549A1606301E16BEB87BC /* ISAdapterLoggerProtocol.h */,
+				B983CF3E7779F3B6C261EADE406E427D /* ISAdapterMetaDataProtocol.h */,
+				EDF4CE3AEC4CF182F7FA3F50DF3ED5EC /* ISAdapterMetaDataProtocol.h */,
+				FDB26BD27EFEAD5220A81ABCD365216F /* ISAdapterSettingsProtocol.h */,
+				452B94CF20C347103A576DE177F8D95D /* ISAdapterSettingsProtocol.h */,
+				D58C94DEE963FBABD5956CA5B0B31B20 /* ISAdData.h */,
+				8108A284BDFE5D861224121FEF095FCE /* ISAdData.h */,
+				363AEBD5D6F0997E8106628C5073FD23 /* ISAdInfo.h */,
+				07D837938A2266173DB715C49ECB7DCE /* ISAdInfo.h */,
+				892CFAB02EAEEB51D0CEAD6FFCBC9A38 /* ISAdUnit.h */,
+				A99C6444CCDEAE89C0FA642895BEF814 /* ISAdUnit.h */,
+				8CE7B84551A9FFB22762B7594C3981BB /* ISBannerAdapterDelegate.h */,
+				D0BE3B3EEC65E7E6F149667BABE84566 /* ISBannerAdapterDelegate.h */,
+				52EFCD2CC888308C0292EF37F5F4EA8B /* ISBannerAdapterProtocol.h */,
+				CB5AAC27C66D19F372C2D2A473FE9B02 /* ISBannerAdapterProtocol.h */,
+				B3A63EEA7700C640C95E7FF3B9BC0F84 /* ISBannerDelegate.h */,
+				113A92CA340F5129052273EF08EFB789 /* ISBannerDelegate.h */,
+				F851F9A1BA1C0FEB05A1A80357AC6069 /* ISBannerSize.h */,
+				56AAB26423B6FFDF1ECFFE035CEA20FB /* ISBannerSize.h */,
+				3C4AB63EB3242580559736E9A4776153 /* ISBannerView.h */,
+				14CE81C42F07751A4D646593ABEB7467 /* ISBannerView.h */,
+				6B2E1AB78AA5409A30C9FAE6E704309E /* ISBaseAdAdapter.h */,
+				1127DFF583F0819FCEB4C1B91450C1D5 /* ISBaseAdAdapter.h */,
+				4B0D6E438FFAE871F1F8896B6E1C9E70 /* ISBaseAdapter.h */,
+				5249E43F34E1F3547DF981E6C12D2334 /* ISBaseAdapter.h */,
+				894B699CA7E04089A8F8D4BCA02FE027 /* ISBaseAdapter+Internal.h */,
+				C50414087A41F5502AC2568D88322CEC /* ISBaseAdapter+Internal.h */,
+				6F1F0547FAE5B84069C423EA2353369D /* ISBaseAdInteractionAdapter.h */,
+				AF4ECE2D7686F15AC474A1ECD1550557 /* ISBaseAdInteractionAdapter.h */,
+				2FDBB21ECAB810CC7A25DD2B09A03003 /* ISBaseInterstitial.h */,
+				B9252D0D6F303239D07734053D3A9927 /* ISBaseInterstitial.h */,
+				0D23C033E717E27BAEB61D2A182C6AD3 /* ISBaseNetworkAdapter.h */,
+				38CD4CBFE914DC8E811C47BAC0E145B6 /* ISBaseNetworkAdapter.h */,
+				C3257CDFEFC9E0E331B878448F75A205 /* ISBaseRewardedVideo.h */,
+				EDCD919A4C68DB802A9FD37F8AD5A0DC /* ISBaseRewardedVideo.h */,
+				CE5978F23CE0484EA45B9ACD78996316 /* ISBiddingDataAdapterProtocol.h */,
+				F8A75C8BD6F614E3C52EB5DF0E2B452B /* ISBiddingDataAdapterProtocol.h */,
+				697A02FE542CD404552301FDFA5FAE80 /* ISConfigurations.h */,
+				8FDB6721580CD31BCDF5DB150E122C0E /* ISConfigurations.h */,
+				C6D319E1222CE6777C4945195F75DC01 /* ISConsentViewDelegate.h */,
+				36FD56782942F91443529E4203562C92 /* ISConsentViewDelegate.h */,
+				1A03493766DC7401C8BC2D308E188994 /* ISDataKeys.h */,
+				EAC0DE6C85FE1558FB2C585811F54147 /* ISDataKeys.h */,
+				29F74EDAE1B3CCA4EB6A2E563EDD2C0B /* ISDemandOnlyBannerDelegate.h */,
+				B7FCC21E1FE301A6107398CD7D52FDB6 /* ISDemandOnlyBannerDelegate.h */,
+				2298CACBA9238F01594098B00BFB1267 /* ISDemandOnlyInterstitialDelegate.h */,
+				38EB235F8516BFEF4EEA0045DE1C2669 /* ISDemandOnlyInterstitialDelegate.h */,
+				3C86029E13BF7842433636DC422FF62D /* ISDemandOnlyRewardedVideoDelegate.h */,
+				CA7570B3B1ABDDEC3E25F4B65E2A344B /* ISDemandOnlyRewardedVideoDelegate.h */,
+				962A8578C1FA4B002FF27964328412CE /* ISError.h */,
+				59A6AE7BFB689ACA3B1CFA186DCC5F7A /* ISError.h */,
+				2943C38ECB470523044FF18CC7C993E1 /* ISEventsReporting.h */,
+				C32EC90BF8B8C58F2AB8911A4067F2A1 /* ISEventsReporting.h */,
+				ADBB2E95AEA411CA906D5E6202CA9065 /* ISEventsSettings.h */,
+				B8CBA36858101A84AFF8E5E7D62680E9 /* ISEventsSettings.h */,
+				F45980AB5BFE198D1293DAF0E00D40C9 /* ISGender.h */,
+				BCDCCA668899AF060A025A55660D5B2D /* ISGender.h */,
+				73407981D67F0FCA0FC11A3AB20509A3 /* ISImpressionData.h */,
+				C0783E54340DE968528BF8F3B05D724B /* ISImpressionData.h */,
+				AD1EADE25E860AD47C224FAFAC7F453C /* ISImpressionDataDelegate.h */,
+				CF662275CEE6E8F88E806CA4330985F8 /* ISImpressionDataDelegate.h */,
+				EFB525C2746C35C4125530B2BD6AF51E /* ISInitializationDelegate.h */,
+				E52624964287E605829BF989D7D595E6 /* ISInitializationDelegate.h */,
+				8E7FAD38CF8063C2FBECFA062A77D30B /* ISIntegrationHelper.h */,
+				74BAFC57963138DC441ABAE5DF98E363 /* ISIntegrationHelper.h */,
+				F7590BE4B85910D0AB14A218D1A8483E /* ISInterstitialAdapterDelegate.h */,
+				ED0AC0BCCF700EEC206F14BBCA1E8FA1 /* ISInterstitialAdapterDelegate.h */,
+				CE876F45436465F0344206570B6C4DCD /* ISInterstitialAdapterProtocol.h */,
+				AD09150B75B09772029C986A8D8477FE /* ISInterstitialAdapterProtocol.h */,
+				7BB0C467294878DF34FE5A27078CA9AE /* ISInterstitialDelegate.h */,
+				B48451EDC12707DA172B2DE0AD1FB46F /* ISInterstitialDelegate.h */,
+				DC61875779F390E92D25F3E9489853B3 /* ISLoadWhileShowSupportState.h */,
+				CFDB330D89BB9ECD4A39BCD1377E9EA5 /* ISLoadWhileShowSupportState.h */,
+				DA816A0C14174E6D34D48BBFA859E8D0 /* ISLog.h */,
+				A9D5F2A609ECA69BFCD46B00827602F6 /* ISLog.h */,
+				CAED1BC5B2083E4FB46108A1CD4221B0 /* ISLogDelegate.h */,
+				F6BBB8C5357B194071DA5BA21F5E044A /* ISLogDelegate.h */,
+				5058C6E2FA3BA503CC9452F3D195FB4C /* ISLoggerManager.h */,
+				79583601F8E01BFFA1DF5705F3E507CA /* ISLoggerManager.h */,
+				984C9ABDCE299FF3D127A86DD0A9C1E6 /* ISLoggersSettings.h */,
+				D6664EA3918E5C7C8885779A74EB062B /* ISLoggersSettings.h */,
+				CD27296BF0576309FF200E56CFA45D68 /* ISMetaData.h */,
+				0E77E1E1892A24398887612BBA876474 /* ISMetaData.h */,
+				4381B4831799620F7DF3E2A7C378FD4C /* ISMetaDataConstants.h */,
+				AEB729E4BAC258FA9BD9AC604A310D5B /* ISMetaDataConstants.h */,
+				3E3F3AAF8F2C5B106702565D98452104 /* ISMetaDataUtils.h */,
+				F60900DF872F8D242467BD0C12A861E7 /* ISMetaDataUtils.h */,
+				64AE4DE57B4E3C1C5AE516D7618DECE4 /* ISNetworkInitCallbackProtocol.h */,
+				817F6A234537863574F25ADB73E26E34 /* ISNetworkInitCallbackProtocol.h */,
+				D1C86F2D0B6C729AD246C9CC235E9BE6 /* ISNetworkInitializationDelegate.h */,
+				C8F6987CE7F696381275425DF084ED9B /* ISNetworkInitializationDelegate.h */,
+				24688D62CBF881ABAA3D04D245F13B44 /* ISOfferwallAdapterDelegate.h */,
+				859E371ED2C2C548B66F2FA7A3D3F1D5 /* ISOfferwallAdapterDelegate.h */,
+				E721D8C1E746F826335429FD941FD911 /* ISOfferwallAdapterProtocol.h */,
+				C2C93CB4FE3CACCB795110F6BC58E425 /* ISOfferwallAdapterProtocol.h */,
+				C8B6783E24E99589CB8F232A96F8F526 /* ISOfferwallDelegate.h */,
+				AAB838F5451905691B641B4C4C426E2A /* ISOfferwallDelegate.h */,
+				EF6C729762FF7D5789CE3238B0474BD6 /* ISPlacementInfo.h */,
+				19CADEF396F41596F01C9FED99DE4C48 /* ISPlacementInfo.h */,
+				4FBDDEC005D3C582E5A7E4DEEE0FABF7 /* ISProductSettings.h */,
+				54704F10B32D15EF14D37CE2072BAE9E /* ISProductSettings.h */,
+				461164B14F1E073CF6F22132A92AE583 /* ISRewardedVideoAdapterDelegate.h */,
+				47A27B391C374CF859A690969368C130 /* ISRewardedVideoAdapterDelegate.h */,
+				237404033434E1C6737607F3A6ABA6B3 /* ISRewardedVideoAdapterProtocol.h */,
+				B5B225143D97D48DAFB5DBEFC0695F36 /* ISRewardedVideoAdapterProtocol.h */,
+				0806B6CCFF3BB4953680D653A22169D5 /* ISRewardedVideoDelegate.h */,
+				4AEDAFBA3289F950F5AF3F1E57919C25 /* ISRewardedVideoDelegate.h */,
+				21293CB0815F7B1B42C753E9AB779F78 /* ISRewardedVideoManualDelegate.h */,
+				F7ACE432612F7EB7EF0B50F36E49B3AE /* ISRewardedVideoManualDelegate.h */,
+				5429DEB7A23B3E45F1EA8B3CEC70DBC6 /* ISSegment.h */,
+				C49923420149C075C414A7ECF4EF54AF /* ISSegment.h */,
+				F1347345935468133C67067875A75DB1 /* ISSegmentDelegate.h */,
+				6B5BB8C8803BF7B590B9C46300B23FD6 /* ISSegmentDelegate.h */,
+				9E091586E46A2384D9F818A4A19F3A98 /* ISServerResponseParser.h */,
+				E0D6E69391875740FA7EFB4E808F763F /* ISServerResponseParser.h */,
+				FEF11BCBC9791E63E11AE4D5767E6CDB /* ISSupersonicAdsConfiguration.h */,
+				56A9B80B44CAC964994CFEA9E2941EC0 /* ISSupersonicAdsConfiguration.h */,
+				CD30C8D9466C957E2C52F7FD643FA2BD /* LevelPlayBannerDelegate.h */,
+				246799D22AA08BAE28EC1C15EE0032A3 /* LevelPlayBannerDelegate.h */,
+				AFE09647DBEBEF54F74C6EDC3C4C527F /* LevelPlayInterstitialDelegate.h */,
+				DDD9C5C7A6FAB831211A0836EF01AC9B /* LevelPlayInterstitialDelegate.h */,
+				CD4F89F9FBAFF1251AA45683F1F9C218 /* LevelPlayRewardedVideoBaseDelegate.h */,
+				E1AAB9DE17C57EF9ED72B11B21046F25 /* LevelPlayRewardedVideoBaseDelegate.h */,
+				6D1F39BB4162FBC19889CAB6D1F5C288 /* LevelPlayRewardedVideoDelegate.h */,
+				0428338A63938F7D09195EE014AEE772 /* LevelPlayRewardedVideoDelegate.h */,
+				D0289C28F568119C0508DA7E9BD084F7 /* LevelPlayRewardedVideoManualDelegate.h */,
+				071360365458BDD6DB9C2B993C638FE0 /* LevelPlayRewardedVideoManualDelegate.h */,
+				06C4E477707A6793FD2CDDF08DAFBC58 /* Frameworks */,
+				7FE32E720D5A54F11137C46FFEEAC7CB /* Support Files */,
+			);
+			name = IronSourceSDK;
+			path = IronSourceSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,7 +495,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CCC66C478C6216049A82ABAFC6715159 /* PBXTargetDependency */,
+				3DC79EA531509DCCBF2F304B62891633 /* PBXTargetDependency */,
 			);
 			name = "Pods-KidozIronSourceSample";
 			productName = Pods_KidozIronSourceSample;
@@ -548,11 +572,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CCC66C478C6216049A82ABAFC6715159 /* PBXTargetDependency */ = {
+		3DC79EA531509DCCBF2F304B62891633 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IronSourceSDK;
 			target = 205EFBEF86DA6E7E3D5B9BABED8872EE /* IronSourceSDK */;
-			targetProxy = FDAB1C7BB04E362D964A18F59B33C639 /* PBXContainerItemProxy */;
+			targetProxy = 528F2EE1698083CB503843A2ECB09C34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -625,7 +649,7 @@
 		};
 		36AFD26136296B857812159DC3B06DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5903AC377D1A304EC59E601B3BBB7C06 /* IronSourceSDK.debug.xcconfig */;
+			baseConfigurationReference = 5D98D61B4467F45BB8B2B73A5B16041F /* IronSourceSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -641,7 +665,7 @@
 		};
 		9F0F7308D847F521186F84AC3BC5E351 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 870D08F66C09169C665DB73063B48979 /* IronSourceSDK.release.xcconfig */;
+			baseConfigurationReference = 4F21C7B911DBEDB567736C6C6FA7C40F /* IronSourceSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
