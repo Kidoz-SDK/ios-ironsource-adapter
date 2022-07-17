@@ -1,6 +1,6 @@
 # iOS ironSource Adapter + Sample App
 
-The Kidoz ironSource Adapter SDK is built and tested with ironSource mediation v7.2.0.<BR>
+The Kidoz ironSource Adapter SDK is built and tested with ironSource mediation v7.2.3.1.<BR>
 You should only use this version or above as it is the first stable custom mediation release. <BR>
 
 The Adapter offers support for the following ad types:
