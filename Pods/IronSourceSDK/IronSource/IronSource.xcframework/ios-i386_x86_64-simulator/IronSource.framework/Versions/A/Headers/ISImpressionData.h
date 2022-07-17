@@ -10,6 +10,22 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define kImpressionDataKeyAuctionId        @"auctionId"
+#define kImpressionDataKeyAdUnit           @"adUnit"
+#define kImpressionDataKeyCountry          @"country"
+#define kImpressionDataKeyAb               @"ab"
+#define kImpressionDataKeySegmentName      @"segmentName"
+#define kImpressionDataKeyPlacement        @"placement"
+#define kImpressionDataKeyAdNetwork        @"adNetwork"
+#define kImpressionDataKeyInstanceName     @"instanceName"
+#define kImpressionDataKeyInstanceId       @"instanceId"
+#define kImpressionDataKeyRevenue          @"revenue"
+#define kImpressionDataKeyPrecision        @"precision"
+#define kImpressionDataKeyLifetimeRevenue  @"lifetimeRevenue"
+#define kImpressionDataKeyEncryptedCPM     @"encryptedCPM"
+#define kImpressionDataKeyConversionValue  @"conversionValue"
+
+
 @interface ISImpressionData : NSObject
 
 @property (readonly, copy) NSString*    _Nullable auction_id;
@@ -30,6 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, copy) NSDictionary* _Nullable all_data;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+- (instancetype)initWithImpressionData:(ISImpressionData *)impressionData;
 
 - (void) replacePlacementMacro:(NSString *) macro
                          value:(NSString *) value;
