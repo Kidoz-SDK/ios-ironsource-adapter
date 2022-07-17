@@ -35,7 +35,7 @@ IronSource Integration
 On a general note you should follow the instructions given on the ironSource Android SDK Integration page [HERE](https://developers.is.com/ironsource-mobile/ios/ios-sdk/) but as far as Kidoz integration goes you only need to do the following on your activity:
   
 ```java
-  // Initialize listeners
+  // Initialize the below listeners if you want to support manual Rewarded Video loading
   IronSource.setRewardedVideoManualDelegate(mInterstitialDelegate)
   IronSource.setInterstitialDelegate(mRewardedVideoManualDelegate)
 
